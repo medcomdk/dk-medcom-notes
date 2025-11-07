@@ -1,6 +1,6 @@
 title: "MedCom Notes in FHIR"
 description: "This page includes content about Notes (DA: Journalnotater)"
-logo: /assets/images/medcom+fhir-logo.png
+logo: medcom+fhir-logo.png
 description: "MedCom standard based on HL7 FHIR"
 show_downloads: true
 google_analytics:

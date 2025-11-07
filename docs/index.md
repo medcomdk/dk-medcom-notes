@@ -1,17 +1,20 @@
 <!-- HomePage -->
-# MedCom GitHub Pages 
+# MedCom Shared Notes
 <!-- below is the table of content. Ensure to update it. -->
 **Table of Content**
 * [1 Standard Documentation](#standard)
   * [1.1 Clinical Guidelines for application](#11-clinical-guidelines-for-application)
   * [1.2 Use Cases](#12-use-cases)
   * [1.3 Technical specification](#13-technical-specification)
-  * [1.4 Mapping from OIOXML to FHIR](#14-mapping-from-oioxml-to-fhir)
 * [2 Test and Certification](#2-test-and-certification)
 
 
-*Short description concerning the purpose of the standard. Remember to include both the English and Danish name of the standard.*
- 
+This page presents MedCom’s Shared Notes standard (Danish: Deling af journalnotater).
+The purpose of the standard is to enable the secure and structured sharing of clinical notes from general practitioners’ systems (LPS). The Shared Notes standard supports the exchange of personally identifiable health information and ensures that journal notes can be accessed consistently and safely across sectors. The standard contributes to better care coordination and continuity by giving authorized healthcare professionals access to up-to-date documentation from general practice.
+
+The Notes standard is implemented as a FHIR Document and shared over the National Service Platform (NSP) in Denmark.
+
+
 > Clinical Guidelines for application and use cases are in both Danish and English. The remaining documentation will be in English.
 
 ## 1 Standard Documentation {#standard}
