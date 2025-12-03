@@ -14,18 +14,24 @@ publisher:
 jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 
 dependencies:
-  hl7.fhir.us.core: 3.4.0
-
+  ihe.iti.mhd: 4.2.3
+  hl7.fhir.dk.core: 3.4.0
+  medcom.fhir.dk.core: dev
+  medcom.fhir.dk.terminology: 2.0.1
+  medcom.fhir.dk.xdsmetadata: dev
+  medcom.fhir.dk.document: dev
+  hl7.fhir.uv.extensions.r4: 5.2.0
+  hl7.fhir.extensions.r5: 4.0.1
 
 menu:
-  Table of contents: toc.html
-  Home: index.md
-  title: Example Home
+  Home: index.html
   Profiles: profiles.html
   Examples: examples.html
   Artifacts: artifacts.html
-  Downloads: downloads.html
-  Dependencies: dependencies.html
+  More:
+    Table of Contents: toc.html
+    Downloads: downloads.html
+    Dependencies: dependencies.html
 
 parameters: 
   apply-version: false
