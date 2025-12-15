@@ -17,3 +17,17 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * code.coding[LOINC].display 1.. MS
 * code.coding[LOINC].display = "Consultation Note" (exactly)
 * code.coding[LOINC].system MS
+* subject 1..1 MS
+* subject only Reference(MedComDocumentPatient)
+* performer ..1
+* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole) //SKS: Det kan vel ikke være et careteam?
+* extension[valueAttachment].url MS
+* extension[valueAttachment] 1..1 MS
+* extension[valueAttachment].valueAttachment 1..1 MS
+* extension[valueAttachment].valueAttachment.data 1..1 MS
+* extension[valueAttachment].valueAttachment.data ^short = "The Note as a Base64 encoded string."
+* extension[valueAttachment].valueAttachment.contentType 1..1 MS
+* extension[valueAttachment].valueAttachment.contentType = #text/plain (exactly) //SKS: jeg er i tvivl om dette er rigtigt
+* extension[valueAttachment].valueAttachment.contentType ^short = "MIME type of the note."
+* extension[valueAttachment].valueAttachment.title 1..1 MS
+* extension[valueAttachment].valueAttachment.title ^short = "Title MUST be 'Journalnotat for **CPR-nummer**', if it is not available from the originatng system."
