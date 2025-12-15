@@ -4,7 +4,7 @@ Id: medcom-notes-composition
 Description: "A profile for the MedCom Notes Composition resource."
 * type.coding.system = $Loinc (exactly)
 * type.coding.code = #11488-4 (exactly)
-* type.coding.display = "Consultation Note" (exactly)
+* type.coding.display = "Consult note" (exactly)
 * date ^short = "Last update of the note (Da: Sidste opdatering af notatet)"
 * title ^short = "Title MUST be 'Journalnotat for **CPR-nummer**'"
 * author only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole) //SKS: Det kan vel ikke være et careteam?
