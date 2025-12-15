@@ -15,7 +15,7 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * code.coding[LOINC].code MS
 * code.coding[LOINC].code = #11488-4 (exactly)
 * code.coding[LOINC].display 1.. MS
-* code.coding[LOINC].display = "Consultation Note" (exactly)
+* code.coding[LOINC].display = "Consult note" (exactly)
 * code.coding[LOINC].system MS
 * subject 1..1 MS
 * subject only Reference(MedComDocumentPatient)
