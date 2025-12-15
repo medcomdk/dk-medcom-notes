@@ -1,0 +1,79 @@
+Alias: $loinc = http://loinc.org
+Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
+Alias: $list-order = http://terminology.hl7.org/CodeSystem/list-order
+Alias: $list-empty-reason = http://terminology.hl7.org/CodeSystem/list-empty-reason
+
+Profile: MedComDocumentComposition
+Parent: Composition
+Id: medcom-document-composition
+Description: "[TEMPORARY] The profile of the MedCom Document Composition containing the minimum allowed content."
+* id 1.. MS
+* text MS
+* text ^short = "The narrative text SHALL always be included when exchanging a MedCom FHIR Bundle."
+* text.status MS
+* text.div MS
+* meta.profile 1..1 MS
+* identifier 1.. MS
+* identifier.system 1.. MS
+* identifier.system ^short = "[DocumentEntry.uniqueId] Sender organization OID (Object Identifier). Example: 1.2.208.184 (MedCom OID)."
+* identifier.value 1.. MS
+* identifier.value ^short = "[DocumentEntry.uniqueId] UUID."
+* identifier ^short = "The Composition identifier"
+* date MS
+* confidentiality 1..1 MS
+* status = #final
+* status MS
+* type 1..1 MS
+* type ^short = "[DocumentEntry.typeCode] Kind of document"
+* type.coding 1.. MS
+* type.coding.system 1.. MS
+* type.coding.code 1.. MS
+* type.coding.display 1.. MS
+* type from $TypeCode (required)
+* category ..1 MS 
+* category from $ClassCode (extensible)
+* category.coding 1..1 MS
+* category.coding.code 1.. MS
+* category.coding.system 1.. MS
+* category.coding.display 1.. MS
+* category ^short = "[DocumentEntry.classCode] Categorization of document"
+* subject 1.. MS
+* subject only Reference(MedComDocumentPatient)
+* subject ^type.aggregation = #bundled
+* event 1..1 MS
+* event.code MS
+* event.period 1..1 MS
+* event.period ^short = "[DocumentEntry.serviceStartTime, DocumentEntry.serviceStopTime] Time of service that is being documented."
+* event.period.start 1..1 MS
+* event.period.end 0..1 MS
+* event.detail 0..* MS
+* event.detail ^short = "[DocumentEntry.referenceIdList] Related identifiers or resources"
+* author ..2 MS
+* author only Reference(MedComDocumentOrganization or MedComDocumentPractitionerRole or MedComDocumentPractitioner or MedComDocumentPatient or DkCoreRelatedPerson or Device)
+* author ^slicing.discriminator[0].type = #profile
+  * ^slicing.discriminator[0].path = "$this.resolve()"
+  * ^slicing.rules = #open
+* author contains
+    institution 1..1 MS
+* author ^short = "[DocumentEntry.author] The slice author:institution ensures one mandatory organizational author.
+Any author element that does not match this slice is interpreted
+as an author person."
+* author[institution] only Reference(MedComDocumentOrganization)
+* author[institution] ^short = "The organization who authored the document."
+* author ^type.aggregation = #bundled
+* attester 0..1 MS
+* attester.party 0..1 MS
+* attester.mode MS
+* attester.party only Reference(MedComDocumentPractitioner)
+* attester.party ^short = "[DocumentEntry.legalAuthenticator] Who authenticated the document."
+* attester.party ^type.aggregation = #bundled
+* title MS
+* title ^short = "[DocumentEntry.title] The readable title of the document."
+* language 1..1 MS
+* language from $Language (extensible)
+* language ^short = "[DocumentEntry.languageCode] Human language of the content"
+* section 1.. MS
+* section.text MS //RCH: Hvad er dette felt til? Det er med fra tidligere, men jeg ved ikke hvad vi bruger det til. Skal det fjernes?
+* section.entry MS
+* meta 1.. MS
+* meta.profile ^short = "[DocumentEntry.formatCode] Indicates the FHIR Composition profile name used as the formatCode in the DocumentEntry for the individual MedCom FHIR Document standards."
