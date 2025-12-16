@@ -28,5 +28,7 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * extension[valueAttachment].valueAttachment.contentType ^short = "MIME type of the attached EKG recording."
 * extension[valueAttachment].valueAttachment.title 1..1 MS
 * extension[valueAttachment].valueAttachment.title ^short = "Either the title of the note written by the responsible or 'Journalnotat'."
-
-
+* subject 1..1 MS
+* subject only Reference(MedComDocumentPatient)
+* performer ..1
+* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole) //SKS: Skal det mon kun være person specifikt eller skal det også kunne være en organization? Det kan vel ikke være et careteam?

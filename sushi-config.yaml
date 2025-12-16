@@ -1,5 +1,5 @@
 id: medcom.fhir.dk.notes
-canonical: http://medcomfhir.dk/ig/dk-medcom-notes
+canonical: http://medcomfhir.dk/ig/notes
 name: MedComNotes
 title: DK MedCom Notes
 description: The DK MedCom Notes IG
