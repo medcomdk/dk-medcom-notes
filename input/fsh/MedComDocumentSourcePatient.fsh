@@ -1,4 +1,4 @@
-Profile: MedComDocumentPatient
+/* Profile: MedComDocumentPatient
 Parent: MedComCorePatient
 Id: medcom-document-patient
 Description: "[TEMPORARY] A profile including requirements for a MedCom Document Patient."
@@ -19,3 +19,4 @@ Description: "[TEMPORARY] A profile including requirements for a MedCom Document
 * name[official].family 1.. MS SU
 * birthDate 1.. MS
 * gender 1.. MS
+ */

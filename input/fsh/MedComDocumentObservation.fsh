@@ -1,4 +1,4 @@
-Profile: MedComDocumentObservation
+/* Profile: MedComDocumentObservation
 Parent: MedComCoreObservation
 Id: medcom-document-observation
 Title: "MedComDocumentObservation"
@@ -28,4 +28,4 @@ Description: "[TEMPORARY] Generic extension for Observation value as Attachment 
 * . ^short = "Observation value as attachment."
 * url 1..1
 * url = "http://medcomfhir.dk/ig/core/StructureDefinition/medcom-observation-value-attachment-extension" (exactly)
-* value[x] only Attachment
+* value[x] only Attachment */

@@ -85,7 +85,7 @@ Usage: #example
 * effectiveDateTime = "2026-12-10"
 * performer = Reference(b3860fb8-4b1d-4be5-8290-e6a026d10555)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
-* extension[valueAttachment].valueAttachment.contentType = #text/html
+* extension[valueAttachment].valueAttachment.contentType = #application/xhtml+xml
 * extension[valueAttachment].valueAttachment.title = "Journalnotat"
 * extension[valueAttachment].valueAttachment.data = "w6Vyc2tvbnRyb2w6IEJUIDEzOC84MiBtbUhn"
 

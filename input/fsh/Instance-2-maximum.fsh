@@ -116,7 +116,7 @@ Usage: #example
 * effectiveDateTime = "2026-12-12T10:05:00+01:00"
 * performer = Reference(48ed6310-3095-44da-9e34-d1cd6bd830c9)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
-* extension[valueAttachment].valueAttachment.contentType = #text/html
+* extension[valueAttachment].valueAttachment.contentType = #application/xhtml+xml
 * extension[valueAttachment].valueAttachment.title = "Årskontrol af diabetes"
 * extension[valueAttachment].valueAttachment.data = "IDxwPlBhdGllbnRlbiBzZXMgdGlsIDxiPsOlcnNrb250cm9sIGFmIGRpYWJldGVzPC9iPi4gQmVoYW5kbGluZyBmw7hsZ2VzLCBvZyBwdC4gYW5naXZlciBpbmdlbiBoeXBvZ2x5a8OmbWlza2UgZXBpc29kZXIuPC9wPgoKPHA+T2JqZWt0aXZ0Ojxici8+CkJUIDEzOC84MiBtbUhnLiBCTUkgPGk+MjcsMzwvaT4uIEZvZHN0YXR1cyB1LmEuPC9wPgoKPHA+UGFyYWtsaW5pazo8YnIvPgpIYkExYyA1OCBtbW9sL21vbCAoPGVtPm92ZXIgbcOlbDwvZW0+KS48L3A+Cgo8cD5WdXJkZXJpbmcvcGxhbjogPGI+VHlwZSAyIGRpYWJldGVzPC9iPiBtZWQgZGVsdmlzIHJlZ3VsZXJpbmcuIEp1c3RlcmluZyBhZiBtZXRmb3JtaW4gb2cgcsOlZGdpdm5pbmcgb20gbGl2c3N0aWwuIEtvbnRyb2wgb20gNiBtZHIuPC9wPgoKPHA+VW5kZXJza3JpZnQ6IERyLiA8dHQ+QW5kZXJzZW48L3R0PjwvcD4="
 

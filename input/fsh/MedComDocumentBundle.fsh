@@ -1,4 +1,4 @@
-Profile: MedComDocumentBundle
+/* Profile: MedComDocumentBundle
 Parent: Bundle
 Id: medcom-document-bundle
 Description: "[TEMPORARY] The Bundle profile for a document"

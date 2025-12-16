@@ -1,4 +1,4 @@
-Alias: $loinc = http://loinc.org
+/* Alias: $loinc = http://loinc.org
 Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: $list-order = http://terminology.hl7.org/CodeSystem/list-order
 Alias: $list-empty-reason = http://terminology.hl7.org/CodeSystem/list-empty-reason
@@ -77,3 +77,4 @@ as an author person."
 * section.entry MS
 * meta 1.. MS
 * meta.profile ^short = "[DocumentEntry.formatCode] Indicates the FHIR Composition profile name used as the formatCode in the DocumentEntry for the individual MedCom FHIR Document standards."
+ */

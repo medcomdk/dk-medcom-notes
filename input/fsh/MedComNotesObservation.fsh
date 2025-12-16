@@ -24,7 +24,7 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * extension[valueAttachment].valueAttachment.data 1..1 MS
 * extension[valueAttachment].valueAttachment.data ^short = "Base64-encoded content of the EKG recording PDF/A document."
 * extension[valueAttachment].valueAttachment.contentType 1..1 MS
-* extension[valueAttachment].valueAttachment.contentType = #text/html (exactly)
+* extension[valueAttachment].valueAttachment.contentType = #application/xhtml+xml (exactly)
 * extension[valueAttachment].valueAttachment.contentType ^short = "MIME type of the attached EKG recording."
 * extension[valueAttachment].valueAttachment.title 1..1 MS
 * extension[valueAttachment].valueAttachment.title ^short = "Either the title of the note written by the responsible or 'Journalnotat'."
