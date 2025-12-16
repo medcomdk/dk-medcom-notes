@@ -8,7 +8,7 @@ Description: "[TEMPORARY] Observation profile to be used in MedCom FHIR Document
 * identifier.system 1..1 MS 
 * identifier ^short = "Globally unique, stable identifier for this resource. The same identifier SHALL be used when this resource is recreated from the same source data."
 * subject only Reference(MedComDocumentPatient)
-* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole or MedComDocumentPatient or DkCoreRelatedPerson)
+* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPatient or DkCoreRelatedPerson)
 
 Profile: MedComObservationValueAttachmentExtension
 Parent: Extension

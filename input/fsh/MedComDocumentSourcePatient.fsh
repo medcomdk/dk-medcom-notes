@@ -1,5 +1,5 @@
 Profile: MedComDocumentPatient
-Parent: DkCorePatient
+Parent: MedComCorePatient
 Id: medcom-document-patient
 Description: "[TEMPORARY] A profile including requirements for a MedCom Document Patient."
 * id MS
