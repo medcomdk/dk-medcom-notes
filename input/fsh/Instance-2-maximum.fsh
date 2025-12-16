@@ -4,7 +4,7 @@ Usage: #example
 Title: "Bundle instance"
 Description: "Bundle instance"
 * type = #document
-* timestamp = 2026-12-12T10:05:00+01:00
+* timestamp = 2026-12-12T12:30:00+01:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:cf5a0508-063d-4200-9c53-7317ee1a69e4"
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/dk-medcom-notes/Composition/cff723a9-fae7-4fc6-8db2-6e49cbbc928a"
@@ -41,7 +41,7 @@ Usage: #example
 * author[+] = Reference(48ed6310-3095-44da-9e34-d1cd6bd830c9)
 * title = "Journalnotat for 3001749995"
 * confidentiality = #N
-* event.period.start = "2026-12-12T10:05:00+01:00"
+* event.period.start = "2026-12-12T12:30:00+01:00"
 * section[0].entry[0] = Reference(if810168-ee7c-4f34-8012-9aff6c1d86e7)
 * date = "2026-12-12T10:05:00+01:00"
 * language = #da "Danish"
