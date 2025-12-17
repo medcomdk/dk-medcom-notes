@@ -16,9 +16,6 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * code.coding[LOINC].display 1.. MS
 * code.coding[LOINC].display = "Consult note" (exactly)
 * code.coding[LOINC].system MS
-* value[x]
-* extension contains 
-        MedComObservationValueAttachmentExtension named valueAttachment 1..1
 * extension[valueAttachment] 1..1 MS
 * extension[valueAttachment].valueAttachment 1..1 MS
 * extension[valueAttachment].valueAttachment.data 1..1 MS

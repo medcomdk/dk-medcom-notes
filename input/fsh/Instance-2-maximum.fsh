@@ -69,8 +69,8 @@ Description: "PractitionerRole with a role and reference to a practitioner and a
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consultation note PractitionerRole example</div>"
 * practitioner = Reference(48ed6310-3095-44da-9e34-d1cd6bd830c9)
 * code = $PractitionerRole#speciallaegeipraksis
-* identifier.system = "urn:uuid"
-* identifier.value = "9a6fb982-ba4a-41d0-ac09-f04cc51c8f38"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:9a6fb982-ba4a-41d0-ac09-f04cc51c8f38"
 * organization = Reference(f8d0eb07-5336-4005-9081-b065f9a82663)
 
 Instance: 48ed6310-3095-44da-9e34-d1cd6bd830c9
@@ -82,8 +82,8 @@ Usage: #example
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consultation note Practitioner example</div>"
 * name.given = "Sidsel"
 * name.family = "Andersen"
-* identifier.system = "urn:uuid"
-* identifier.value = "0ee2db70-d972-4497-a156-0a8109aaa771"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:0ee2db70-d972-4497-a156-0a8109aaa771"
 
 Instance: f8d0eb07-5336-4005-9081-b065f9a82663
 InstanceOf: MedComDocumentOrganization
@@ -106,8 +106,8 @@ Description: "Observation Journalnote"
 Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Example of consultation note</div>"
-* identifier.system = "urn:uuid"
-* identifier.value = "3e4907e4-a5f9-4403-b0a0-9b3201a97074"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:3e4907e4-a5f9-4403-b0a0-9b3201a97074"
 * status = $ObsStatusCodeSystem#final
 * code.coding[LOINC].system = "http://loinc.org"
 * code.coding[LOINC].code = #11488-4

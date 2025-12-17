@@ -75,8 +75,8 @@ Description: "Observation Journalnote"
 Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Example of consultation note</div>"
-* identifier.system = "urn:uuid" //dette system giver en warning i qa rapporten - skal det ændres til urn:ietf:rfc:3986?
-* identifier.value = "3e4907e4-a5f9-4403-b0a0-9b3201a97074" //hvad er forskel på urn:uuid og urn:ietf:rfc:3986?
+* identifier.system = "urn:ietf:rfc:3986" //dette system giver en warning i qa rapporten - skal det ændres til urn:ietf:rfc:3986?
+* identifier.value = "urn:uuid:3e4907e4-a5f9-4403-b0a0-9b3201a97074" //hvad er forskel på urn:uuid og urn:ietf:rfc:3986?
 * status = $ObsStatusCodeSystem#final
 * code.coding[LOINC].system = "http://loinc.org"
 * code.coding[LOINC].code = #11488-4
