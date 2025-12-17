@@ -14,6 +14,7 @@ Description: "A profile for the MedCom Notes Composition resource."
 * category.coding.code = #001
 * category.coding.display = "Klinisk rapport"
 
+* section 1..1 
 * section.entry 1..1 MS //SKS: der må kun være et journalnotat pr. dokument, er dette så den rette måde at udtrykke det på?
 * section.entry only Reference(MedComNotesObservation)
 * confidentiality = #N (exactly)
