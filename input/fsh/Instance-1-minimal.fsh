@@ -37,15 +37,15 @@ Usage: #example
 * title = "Journalnotat for 3001749995"
 * confidentiality = #N
 * event.period.start = "2026-12-10T10:00:00+01:00"
-* section[0].entry[0] = Reference(d2c9d517-3abd-450e-a3c2-18f18da6fd88)
+* section.entry = Reference(d2c9d517-3abd-450e-a3c2-18f18da6fd88)
 * date = "2026-12-10T10:15:00+01:00"
 * language = #da "Danish"
 
 
 Instance: b3b07166-24d7-462b-acb3-1a29269c4740
 InstanceOf: MedComDocumentPatient
-Title: "Patient instance - 2nd ConditionList"
-Description: "Patient instance - 2nd ConditionList - Niels Test Vendelboe"
+Title: "Patient instance - minimal"
+Description: "Patient instance - minimal - Niels Test Vendelboe"
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "3001749995"
 * name[official].use = #official
@@ -62,7 +62,7 @@ Title: "Organization"
 Description: "Instance of an author organization"
 Usage: #example
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consultation note example</div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consultation note example</div>" //text.div skal fjernes fra eksemplerne når de andre iger er udgivet, da div autogenereres.
 * identifier[SOR-ID].value = "61741000016007"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * name = "Lægerne Hasseris Bymidte"
@@ -75,8 +75,8 @@ Description: "Observation Journalnote"
 Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Example of consultation note</div>"
-* identifier.system = "urn:uuid"
-* identifier.value = "3e4907e4-a5f9-4403-b0a0-9b3201a97074"
+* identifier.system = "urn:uuid" //dette system giver en warning i qa rapporten - skal det ændres til urn:ietf:rfc:3986?
+* identifier.value = "3e4907e4-a5f9-4403-b0a0-9b3201a97074" //hvad er forskel på urn:uuid og urn:ietf:rfc:3986?
 * status = $ObsStatusCodeSystem#final
 * code.coding[LOINC].system = "http://loinc.org"
 * code.coding[LOINC].code = #11488-4

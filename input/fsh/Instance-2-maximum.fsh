@@ -42,15 +42,15 @@ Usage: #example
 * title = "Journalnotat for 3001749995"
 * confidentiality = #N
 * event.period.start = "2026-12-12T12:30:00+01:00"
-* section[0].entry[0] = Reference(if810168-ee7c-4f34-8012-9aff6c1d86e7)
+* section.entry = Reference(if810168-ee7c-4f34-8012-9aff6c1d86e7)
 * date = "2026-12-12T10:05:00+01:00"
 * language = #da "Danish"
 
 
 Instance: d65cd8db-4520-4264-87be-a5fd01fb9762
 InstanceOf: MedComDocumentPatient
-Title: "Patient instance - 2nd ConditionList"
-Description: "Patient instance - 2nd ConditionList - Niels Test Vendelboe"
+Title: "Patient instance - maximum"
+Description: "Patient instance - maximum - Niels Test Vendelboe"
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "3001749995"
 * name[official].use = #official
