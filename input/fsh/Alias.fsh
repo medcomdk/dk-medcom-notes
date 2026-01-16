@@ -8,4 +8,13 @@ Alias: $Language = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-
 Alias: $FormatCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-formatcode-VS
 Alias: $TypeCode =  http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-typecode-VS
 Alias: $ClassCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-classcode-VS
-      
+Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
+
+// Aliases for metadata profiles
+Alias: $NotesComposition = http://medcomfhir.dk/ig/dk-medcom-notes/StructureDefinition/medcom-notes-composition|1.0
+Alias: $NotesObservation = http://medcomfhir.dk/ig/dk-medcom-notes/StructureDefinition/medcom-notes-observation|1.0
+Alias: $NotesObservation = http://medcomfhir.dk/ig/dk-medcom-notes/StructureDefinition/medcom-notes-observation|1.0
+Alias: $CorePractitioner = http://medcomfhir.dk/ig/core/StructureDefinition/medcom-core-practitioner|4.0
+Alias: $CorePractitionerRole = http://medcomfhir.dk/ig/core/StructureDefinition/medcom-core-practitionerrole|4.0
+Alias: $DocumentPatient = http://medcomfhir.dk/ig/core/StructureDefinition/medcom-core-patient|2.0
+Alias: $DocumentOrganization = http://medcomfhir.dk/ig/core/StructureDefinition/medcom-core-organization|2.0

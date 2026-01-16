@@ -7,15 +7,17 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * status ^short = "Status MUST be final." 
 * effective[x] only dateTime
 * effective[x] 1..1 MS
-* effective[x] ^short = "The time the note was written"
+* effective[x] ^short = "Date and time the note was created"
 * effectiveDateTime MS
-* effectiveDateTime ^short = "The time the note was written (Da: Oprettelsestidspunkt for notatet)"
+* effectiveDateTime ^short = "Date and time the note was created (Da: Oprettelsestidspunkt for notatet)"
+* effectiveDateTime obeys medcom-datetime-has-time-offset-zulu
 * code.coding[LOINC] 1..1 MS
 * code.coding[LOINC].code MS
 * code.coding[LOINC].code = #11488-4 (exactly)
 * code.coding[LOINC].display 1.. MS
 * code.coding[LOINC].display = "Consult note" (exactly)
 * code.coding[LOINC].system MS
+* extension[valueAttachment].url MS
 * extension[valueAttachment] 1..1 MS
 * extension[valueAttachment].valueAttachment 1..1 MS
 * extension[valueAttachment].valueAttachment.data 1..1 MS
@@ -29,3 +31,11 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * subject only Reference(MedComDocumentPatient)
 * performer ..1
 * performer only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole) //SKS: Skal det mon kun være person specifikt eller skal det også kunne være en organization? Det kan vel ikke være et careteam?
+
+
+* insert ProducerShallPutInNarrative(effectiveDateTime)
+* insert ProducerShallPutInNarrative(code.coding[LOINC].code)
+* insert ProducerShallPutInNarrative(code.coding[LOINC].display)
+* insert ProducerShallPutInNarrative(code.coding[LOINC].system)
+* insert ProducerShallPutInNarrative(extension[valueAttachment].valueAttachment.contentType)
+* insert ProducerShallPutInNarrative(extension[valueAttachment].valueAttachment.title)

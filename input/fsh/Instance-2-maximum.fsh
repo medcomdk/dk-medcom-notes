@@ -24,13 +24,11 @@ Instance: cff723a9-fae7-4fc6-8db2-6e49cbbc928a
 InstanceOf: MedComNotesComposition
 Description: "Composition example for consultation note"
 Usage: #example
-//* meta.profile = "1.0" //Indsæt formatcode?
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consultation note example</div>"
+* meta.profile = $NotesComposition
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:47ef2e1b-5f14-42ca-bd8f-feafb4154240"
 * status = #final
-* type.coding.system = "http://loinc.org"
+* type.coding.system = $Loinc
 * type.coding.code = #11488-4
 * type.coding.display = "Consult note"
 * category.coding.system = $ClassCodeCS
@@ -51,6 +49,7 @@ Instance: d65cd8db-4520-4264-87be-a5fd01fb9762
 InstanceOf: MedComDocumentPatient
 Title: "Patient instance - maximum"
 Description: "Patient instance - maximum - Niels Test Vendelboe"
+* meta.profile = $DocumentPatient
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "3001749995"
 * name[official].use = #official
@@ -65,8 +64,7 @@ Instance: bb6fa4e1-f8b1-4bf4-b77e-bb03b2cc9820
 InstanceOf: MedComDocumentPractitionerRole
 Title: "PractitionerRole"
 Description: "PractitionerRole with a role and reference to a practitioner and an organization"
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consultation note PractitionerRole example</div>"
+* meta.profile = $CorePractitionerRole
 * practitioner = Reference(48ed6310-3095-44da-9e34-d1cd6bd830c9)
 * code = $PractitionerRole#speciallaegeipraksis
 * identifier.system = "urn:ietf:rfc:3986"
@@ -78,8 +76,7 @@ InstanceOf: MedComDocumentPractitioner
 Title: "Practitioner"
 Description: "Instance of a practitioner"
 Usage: #example
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consultation note Practitioner example</div>"
+* meta.profile = $CorePractitioner
 * name.given = "Sidsel"
 * name.family = "Andersen"
 * identifier.system = "urn:ietf:rfc:3986"
@@ -90,8 +87,7 @@ InstanceOf: MedComDocumentOrganization
 Title: "Organization"
 Description: "Instance of an author organization"
 Usage: #example
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consultation note Organization example</div>"
+* meta.profile = $DocumentOrganization
 * identifier[SOR-ID].value = "61741000016007"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[Ydernummer].value = "77410"
@@ -104,12 +100,11 @@ InstanceOf: MedComNotesObservation
 Title: "Observation"
 Description: "Observation Journalnote"
 Usage: #example
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Example of consultation note</div>"
+* meta.profile = $NotesObservation
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:3e4907e4-a5f9-4403-b0a0-9b3201a97074"
 * status = $ObsStatusCodeSystem#final
-* code.coding[LOINC].system = "http://loinc.org"
+* code.coding[LOINC].system = $Loinc
 * code.coding[LOINC].code = #11488-4
 * code.coding[LOINC].display = "Consult note"
 * subject = Reference(d65cd8db-4520-4264-87be-a5fd01fb9762)

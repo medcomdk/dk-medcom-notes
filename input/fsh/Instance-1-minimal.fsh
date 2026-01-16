@@ -20,13 +20,11 @@ Instance: 43fe2ddc-fd31-443b-bef0-e29c030d6572
 InstanceOf: MedComNotesComposition
 Description: "Composition example for consultation note"
 Usage: #example
-//* meta.profile = "1.0" //Indsæt formatcode?
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consultation note example</div>"
+* meta.profile = $NotesComposition
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:07585abe-9862-489d-8fa6-0a64e2eaccb0"
 * status = #final
-* type.coding.system = "http://loinc.org"
+* type.coding.system = $Loinc
 * type.coding.code = #11488-4
 * type.coding.display = "Consult note"
 * category.coding.system = $ClassCodeCS
@@ -46,6 +44,7 @@ Instance: b3b07166-24d7-462b-acb3-1a29269c4740
 InstanceOf: MedComDocumentPatient
 Title: "Patient instance - minimal"
 Description: "Patient instance - minimal - Niels Test Vendelboe"
+* meta.profile = $DocumentPatient
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "3001749995"
 * name[official].use = #official
@@ -61,8 +60,7 @@ InstanceOf: MedComDocumentOrganization
 Title: "Organization"
 Description: "Instance of an author organization"
 Usage: #example
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Consultation note example</div>" //text.div skal fjernes fra eksemplerne når de andre iger er udgivet, da div autogenereres.
+* meta.profile = $DocumentOrganization
 * identifier[SOR-ID].value = "61741000016007"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * name = "Lægerne Hasseris Bymidte"
@@ -73,12 +71,11 @@ InstanceOf: MedComNotesObservation
 Title: "Observation"
 Description: "Observation Journalnote"
 Usage: #example
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Example of consultation note</div>"
+* meta.profile = $NotesObservation
 * identifier.system = "urn:ietf:rfc:3986" //dette system giver en warning i qa rapporten - skal det ændres til urn:ietf:rfc:3986?
 * identifier.value = "urn:uuid:3e4907e4-a5f9-4403-b0a0-9b3201a97074" //hvad er forskel på urn:uuid og urn:ietf:rfc:3986?
 * status = $ObsStatusCodeSystem#final
-* code.coding[LOINC].system = "http://loinc.org"
+* code.coding[LOINC].system = $Loinc
 * code.coding[LOINC].code = #11488-4
 * code.coding[LOINC].display = "Consult note"
 * subject = Reference(b3b07166-24d7-462b-acb3-1a29269c4740)

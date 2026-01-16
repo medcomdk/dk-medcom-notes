@@ -15,12 +15,11 @@ jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 
 dependencies:
   ihe.iti.mhd: 4.2.3
-  hl7.fhir.dk.core: 3.4.0
-  medcom.fhir.dk.core: dev
+  hl7.fhir.dk.core: 3.5.0
+  medcom.fhir.dk.core: 4.0.0
   medcom.fhir.dk.terminology: 2.0.2
-  medcom.fhir.dk.xdsmetadata: dev
-  medcom.fhir.dk.document: dev
-  hl7.fhir.uv.extensions.r4: 5.2.0
+  medcom.fhir.dk.xdsmetadata: 1.0.1
+  medcom.fhir.dk.document: 2.0.0
   hl7.fhir.extensions.r5: 4.0.1
 
 menu:
