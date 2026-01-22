@@ -3,8 +3,9 @@ InstanceOf: MedComNotesBundle
 Usage: #example
 Title: "Bundle instance"
 Description: "Bundle instance"
+* meta.profile = $NotesBundle
 * type = #document
-* timestamp = 2026-12-10T10:18:00+01:00
+* timestamp = 2026-12-10T09:18:00Z
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:8a471893-0cc2-4695-ba67-8638d4fcbe2f"
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/dk-medcom-notes/Composition/43fe2ddc-fd31-443b-bef0-e29c030d6572"
@@ -79,7 +80,7 @@ Usage: #example
 * code.coding[LOINC].code = #11488-4
 * code.coding[LOINC].display = "Consult note"
 * subject = Reference(b3b07166-24d7-462b-acb3-1a29269c4740)
-* effectiveDateTime = "2026-12-10"
+* effectiveDateTime = "2026-12-10T00:00:00Z"
 * performer = Reference(b3860fb8-4b1d-4be5-8290-e6a026d10555)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/xhtml+xml

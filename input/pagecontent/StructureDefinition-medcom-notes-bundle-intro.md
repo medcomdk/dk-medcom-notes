@@ -1,9 +1,7 @@
 # MedCom Notes Bundle
 
-This page describes how the **MedCom Notes Bundle** profile is intended to be used within the MedCom Notes standard.
+The MedComNotesBundle profile describes the Bundle resource that shall be used in all documents exchanged as Shared Notes. MedComNotesBundle inherits from MedComDocumentBundle, and is the container for the content in a document. 
 
-## Purpose of the Profile
-The profile is designed to represent a complete Notes in FHIR, including:
+As this profile is the used in a document, the element type shall always be ‘document’. This entails that the first resource in the entry element shall be a MedComNotesComposition, which can be found in the slicing on Bundle.entry.
 
-## Required Coding
-All Notes SHALL use...
+The `Bundle.timestamp` **MUST** be the time of the assemblement of the Bundle.

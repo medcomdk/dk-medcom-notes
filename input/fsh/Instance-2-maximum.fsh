@@ -4,7 +4,7 @@ Usage: #example
 Title: "Bundle instance"
 Description: "Bundle instance"
 * type = #document
-* timestamp = 2026-12-12T12:30:00+01:00
+* timestamp = 2026-12-12T11:30:00Z
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:cf5a0508-063d-4200-9c53-7317ee1a69e4"
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/dk-medcom-notes/Composition/cff723a9-fae7-4fc6-8db2-6e49cbbc928a"
@@ -108,7 +108,7 @@ Usage: #example
 * code.coding[LOINC].code = #11488-4
 * code.coding[LOINC].display = "Consult note"
 * subject = Reference(d65cd8db-4520-4264-87be-a5fd01fb9762)
-* effectiveDateTime = "2026-12-12T10:05:00+01:00"
+* effectiveDateTime = "2026-12-12T09:05:00Z"
 * performer = Reference(48ed6310-3095-44da-9e34-d1cd6bd830c9)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/xhtml+xml

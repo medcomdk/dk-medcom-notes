@@ -6,4 +6,4 @@ Expression: "$this.toString().matches('^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-
 Invariant: medcom-canonical-fixed-major
 Description: "If a version is present in the canonical, MAJOR SHALL be a fixed value."
 Severity: #error
-Expression: "matches('^.*[|]1[.].*$')"
+Expression: "matches('^.*[|]0[.].*$')" //SKS: ret denne tilbage til 1 inden udgivelse

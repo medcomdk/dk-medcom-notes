@@ -30,7 +30,7 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * subject 1..1 MS
 * subject only Reference(MedComDocumentPatient)
 * performer ..1
-* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole) //SKS: Skal det mon kun være person specifikt eller skal det også kunne være en organization? Det kan vel ikke være et careteam?
+* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole)
 
 
 * insert ProducerShallPutInNarrative(effectiveDateTime)
