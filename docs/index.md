@@ -10,48 +10,52 @@
 
 
 This page presents MedCom’s Shared Notes standard (Danish: Deling af journalnotater).
-The purpose of the standard is to enable the secure and structured sharing of clinical notes from general practitioners’ systems (LPS). The Shared Notes standard supports the exchange of personally identifiable health information and ensures that journal notes can be accessed consistently and safely across sectors. The standard contributes to better care coordination and continuity by giving authorized healthcare professionals access to up-to-date documentation from general practice.
+The purpose of the standard is to enable the secure and structured sharing of notes (Da: journalnotater) from general practitioners’ systems (LPS). The Shared Notes standard supports the exchange of personally identifiable health information and ensures that notes can be accessed consistently and safely across sectors. The standard contributes to better care coordination and continuity by giving authorized healthcare professionals access to up-to-date documentation from general practice.
 
-The Notes standard is implemented as a FHIR Document and shared over the National Service Platform (NSP) in Denmark.
+The Notes standard is implemented as a FHIR Document and shared over the National Service Platform (NSP) in Denmark. A simple illustration of the flow of data is depicted in <a href="#Fig1">Figure 1</a>. A short description of the flow follows: 
+1. The general practitioner documents the consultation by authoring a note, which may include relevant assessments, observations, and decisions.
+2. The note is made available for sharing through the national healthcare infrastructure in accordance with applicable authorization and access rules.  
+3. Another healthcare professional with the appropriate authorization requests access to the shared note.  
+4. A document containing the journal note is retrieved and made available, allowing the healthcare professional to review the clinical documentation from the consultation.
+
+<figure>
+<img src="assets/Images/SharedNotes-pixi.png" alt="Illustrates the flow of data when a Note is created and requested." style="width:40%" id="Fig1">
+<figcaption text-align = "center"><b>Figure 1 illustrates the flow of data when a Note is created and requested.</b></figcaption>
+</figure>
 
 
 > Clinical Guidelines for application and use cases are in both Danish and English. The remaining documentation will be in English.
 
 ## 1 Standard Documentation {#standard}
-The standard documentation below provides the necessary content to understand the needs for modernization, the role of the *STANDARDNAME* message, what to implement and how to get a MedCom certificate. The standard documentation for *STANDARDNAME* includes:
-  * Clinical Guidelines
+On the project page for <a href="INDSÆT LINK" target="_blank">Shared notes on NSPOP</a>, the following documentation can be found: 
+  * Overall purpose of the standard
+  * Logical information and data models
+  * Business rules
+  * Technical guide for implementation of the Shared Notes standard.
+
+On this page, provided by MedCom, additional information on how to implement the standard Shared Notes:
+  * User stories
   * Use cases
-  * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
-  * *mention other relevant documentation*
+  * Technical Specifications in terms of the relevant Implementation Guide (IG).
+  * Mapping from logical data model to Shared Notes
+  * Test and certification
 <p>&nbsp;</p>
 
-### 1.1 Clinical Guidelines for application 
-The Clinical Guidelines for application is the foundation for the *STANDARDNAME* standard. It describes the clinical needs for the modernization, the requirement for the content of the standard and how the standard supports the business requirements. It is the primary textual part of the documentation for *STANDARDNAME*. It is important for both implementers and business specialists to understand the Clinical Guidelines for application to ensure that the implemented standard supports the requirements.
+### 1.1 User Stories
+A user story is an informal, general description of a systems functionality as perceived from the user's perspective. User stories have the end user at the centre of the dialogue about system functionality. User stories describe which needs the end user wants fulfilled, so that the developer understands the context of the development task: why they are developing the function and what value it must provide the end user. Not all user stories will be supported with this current implementation, which is noted for the specific user story.
 
-Below can the Clinical Guidelines for application in Danish and English be found:
-
-[Danish: Sundhedsfaglige retningslinjer for anvendelse](assets/documents/Clinical-guidelines-DA.md) <br> 
-[English: Clinical guidelines for application](assets/documents/Clinical-guidelines-ENG.md) 
+[User stories (pdf)](assets/documents/UserStories_SharedNotes.pdf) <br>  
 
 ### 1.2 Use Cases
 
-Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of the *STANDARDNAME*. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions and municipalities.
+Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a document. The purpose of the use cases is to ensure a coherent implementation and use of the Shared Notes standard. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions and municipalities.
 
-The use cases for HospitalNotification are qualified in collaboration with EPR- and vendors catering to the municipalities.
-
-Below can the use cases in Danish and English be found:
-
-[Danish: Use cases](assets/documents/UseCases-DA.md) <br> 
-[English: Use cases](assets/documents/UseCases-ENG.md) 
+[Use cases (pdf)](assets/documents/UseCases_SharedNotes.pdf) <br>
 
 ### 1.3 Technical specification
-
-The technical specification for *STANDARDNAME* standard is composed by profiles form *IG name* 
-
-The profiles that are part of the technical specification for *STANDARDNAME* are: 
- * *Insert link to ImplemantationGuides*
-
-The link below gives an overview of the included profiles, what their purpose is, and which elements the system should support. Further, the structure of the standard is described and supported with examples in different degree of technical skills.
+The technical specification for the Shared Notes standard is composed by profiles from two IGs.
+* <a href="http://medcomfhir.dk/ig/document|2.0.0" target="_blank">MedCom Document</a>, which provides the overall document structure and base requirements
+* <a href="http://medcomfhir.dk/ig/notes|1.0.0" target="_blank">MedCom Shared Notes</a>, which provides the requirements specific for the use of the Shared Notes standard.
 
 [Click here to read an introduction to the technical specificationscan be found here.](assets/documents/Intro-Technical-Spec-ENG.md)
 
