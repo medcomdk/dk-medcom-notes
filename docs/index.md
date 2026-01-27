@@ -24,7 +24,6 @@ The Notes standard is implemented as a FHIR Document and shared over the Nationa
 </figure>
 
 
-> Clinical Guidelines for application and use cases are in both Danish and English. The remaining documentation will be in English.
 
 ## 1 Standard Documentation {#standard}
 On the project page for <a href="INDSÆT LINK" target="_blank">Shared notes on NSPOP</a>, the following documentation can be found: 
@@ -57,23 +56,22 @@ The technical specification for the Shared Notes standard is composed by profile
 * <a href="http://medcomfhir.dk/ig/document|2.0.0" target="_blank">MedCom Document</a>, which provides the overall document structure and base requirements
 * <a href="http://medcomfhir.dk/ig/notes|1.0.0" target="_blank">MedCom Shared Notes</a>, which provides the requirements specific for the use of the Shared Notes standard.
 
-[Click here to read an introduction to the technical specificationscan be found here.](assets/documents/Intro-Technical-Spec-ENG.md)
+[Click here to read an introduction to the technical specifications can be found here.](assets/documents/Intro-Technical-Spec-ENG.md)
 
 ### 1.4 Mapping from OIOXML to FHIR
 Short description concerning the previous OIOXML standard that is replaced by STANDARDNAME. 
 The document is intended to help translate the previous standard to the new FHIR standard.Furthermore, not all elements from the FHIR elements are represented in the document; thus, it cannot stand alone for implementation. 
 
 ## 2 Test and Certification
-Certification of a system implies both an approved testprotocol and run-through of TouchStone test scripts. TouchStone describes an infrastructure that allows for automated test and validation against the IG's developed by MedCom. 
+Certification of a system implies both an approved testprotocol and run-through of test scripts in ITB (Interoperability Test Bed). ITB describes an infrastructure that allows for automated test and validation against the IG's developed by MedCom. 
 
- [Click here to find the description of test and certification of FHIR standards in MedCom.](https://tmsmedcom.github.io/GitHubPagesTest/#test-and-certification). 
+ [Click here to find the description of test and certification of FHIR standards in MedCom.](https://medcom.github.io/GitHubPagesTest/#test-and-certification). 
 
 **Sending a STANDARDNAME message**
   * Testprotocol
-  * TouchStone Testscripts
+  * ITB Testscripts
 <p>&nbsp;</p>
  
 **Receiving a STANDARDNAME message**
   * Testprotocol
-  * TouchStone Testscripts
 <p>&nbsp;</p>
