@@ -1,0 +1,12 @@
+{
+  "package-id": "medcom.fhir.dk.notes",
+  "version": "1.0.0",
+  "path": "http://medcomfhir.dk/ig/notes/1.0.0",
+  "status": "trial-use",
+  "sequence": "trial-use",
+  "milestone" : false,
+  "title": "The DK MedCom Notes IG",
+  "category": "MedCom Notes",
+  "introduction": "The MedCom Notes Implementation Guide",
+  "descmd": "@release-notes.md"
+}
