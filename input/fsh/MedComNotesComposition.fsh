@@ -9,8 +9,16 @@ Description: "A profile for the MedCom Notes Composition resource."
 * title ^short = "Title MUST be 'Journalnotat for **CPR-nummer**'" 
 * meta.profile obeys medcom-canonical-fixed-major
 * meta.profile ^short = "[DocumentEntry.formatCode] The profile canonical SHALL include the major and minor version of the standard in the form `|x.y`."
-* author only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole)
+
+* author only Reference(MedComDocumentOrganization or MedComDocumentPractitioner)
+* author ^slicing.discriminator[0].type = #profile
+  * ^slicing.discriminator[0].path = "$this.resolve()"
+  * ^slicing.rules = #open
+* author contains
+    person 0..1 MS
 * author[institution] only Reference(MedComDocumentOrganization)
+* author[person] only Reference(MedComDocumentPractitioner)
+* author[person] ^short = "The practitioner who authored the document."
 
 * category 1.. // SKS: i EKG er de endt med at have denne med, profileret som her. Var det noget med metadata? ja, nemlig.
 * category.coding.system = $ClassCodeCS

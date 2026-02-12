@@ -29,8 +29,19 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * extension[valueAttachment].valueAttachment.title ^short = "Either the title of the note written by the responsible or a generic title e.g. 'Journalnotat'."
 * subject 1..1 MS
 * subject only Reference(MedComDocumentPatient)
-* performer ..1
-* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole)
+* performer 1..2
+* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitionerRole)
+* performer ^short = "Who is responsible for the note (Da: journalnotatet)"
+* performer ^slicing.discriminator.type = #type
+* performer ^slicing.discriminator.path = "$this"
+* performer ^slicing.rules = #closed
+* performer contains
+    organization 1..1 and
+    practitionerRole 0..1
+* performer[organization] only Reference(MedComDocumentOrganization)
+* performer[organization] ^short = "organization responsible for the note (Da: journalnotatet)"
+* performer[practitionerRole] only Reference(MedComDocumentPractitionerRole)
+* performer[practitionerRole] ^short = "practitionerRole responsible for the note (Da: journalnotatet)"
 
 
 * insert ProducerShallPutInNarrative(effectiveDateTime)

@@ -20,7 +20,7 @@ The `effectiveDateTime` element is a mandatory element used to represent the dat
 The element `code` describes what was observed. This code is for Shared Notes fixed to code.coding:LOINC.code: `11488-4` system: `http://loinc.org` display: `Consult Note`.
 
 ## Author
-A reference to the author of the note is included in the element `performer`. If information about the healthcare professional and his/her role is available this should be included in the profiles MedComDocumentPractitioner and MedComDocumentPractitionerRole, respectively. If only information about the authoring organization is available, this must be included.
+A reference to the author of the note is included in the element `performer`. The authoring organization **MUST** be included. If information about the healthcare professional and his/her role is available this should be included in the profile MedComDocumentPractitionerRole with a reference to MedComDocumentPractitioner, holding the name of the practitioner.
 
 ## Resource references
 This Observation references the `Patient` resource through the `subject` element and the author `Organization`, `Practitioner`, or `PractitionerRole` through the `performer` element.
