@@ -109,7 +109,8 @@ Usage: #example
 * code.coding[LOINC].display = "Consult note"
 * subject = Reference(d65cd8db-4520-4264-87be-a5fd01fb9762)
 * effectiveDateTime = "2026-12-12T09:05:00Z"
-* performer = Reference(48ed6310-3095-44da-9e34-d1cd6bd830c9)
+* performer[organization] = Reference(f8d0eb07-5336-4005-9081-b065f9a82663)
+* performer[practitionerRole] = Reference(bb6fa4e1-f8b1-4bf4-b77e-bb03b2cc9820)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/xhtml+xml
 * extension[valueAttachment].valueAttachment.title = "Årskontrol af diabetes"

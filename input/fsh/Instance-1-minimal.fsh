@@ -81,7 +81,7 @@ Usage: #example
 * code.coding[LOINC].display = "Consult note"
 * subject = Reference(b3b07166-24d7-462b-acb3-1a29269c4740)
 * effectiveDateTime = "2026-12-10T00:00:00Z"
-* performer = Reference(b3860fb8-4b1d-4be5-8290-e6a026d10555)
+* performer[organization] = Reference(b3860fb8-4b1d-4be5-8290-e6a026d10555)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/xhtml+xml
 * extension[valueAttachment].valueAttachment.title = "Journalnotat"
