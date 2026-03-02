@@ -50,6 +50,8 @@ A Shared Notes document includes several timestamps. These timestamps are presen
 * Bundle.timestamp: Represents the time the bundle was assembled. This timestamp must be included.
 * Composition.date: The last update date of the note performed by the patient's general practitioner must be included (Da: dato og tid for seneste opdatering af notatet).
 * Observation.effectiveDatetime: Date and time the note was created (Da: Oprettelsestidspunkt for notatet)
+* Composition.event.period.start: Date and time the note was created. This is identical to Observation.effectivDatetime, but is used to represent servicestart time in metadata.
+* Composition.event.period.end: data and time for end of creation of the note. This timestamp should be included if known.
 
 If the Composition.date and Observation.effectiveDatetime are similar, this represents that the note has not been updated after it was generated. If the two timestamps are different, this represents that the note has been updated after it was generated.
 

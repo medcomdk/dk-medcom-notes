@@ -32,8 +32,8 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * performer 1..2
 * performer only Reference(MedComDocumentOrganization or MedComDocumentPractitionerRole)
 * performer ^short = "Who is responsible for the note (Da: journalnotatet)"
-* performer ^slicing.discriminator.type = #type
-* performer ^slicing.discriminator.path = "$this"
+* performer ^slicing.discriminator.type = #profile
+* performer ^slicing.discriminator.path = "$this.resolve()"
 * performer ^slicing.rules = #closed
 * performer contains
     organization 1..1 and

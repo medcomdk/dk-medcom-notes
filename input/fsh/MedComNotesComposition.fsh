@@ -24,7 +24,8 @@ Description: "A profile for the MedCom Notes Composition resource."
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
 * category.coding.display = "Klinisk rapport"
-
+* event.period.start obeys medcom-datetime-has-time-offset-zulu
+* event.period.end obeys medcom-datetime-has-time-offset-zulu
 * section 1..1 //SKS: der må kun være et journalnotat pr. dokument, er dette så den rette måde at udtrykke det på? ja, det giver god mening.
 * section.entry 1..1 MS 
 * section.entry only Reference(MedComNotesObservation)
