@@ -39,9 +39,9 @@ Usage: #example
 * author[person] = Reference(48ed6310-3095-44da-9e34-d1cd6bd830c9)
 * title = "Journalnotat for 3001749995"
 * confidentiality = #N
-* event.period.start = "2026-12-12T12:30:00+01:00"
+* event.period.start = "2026-12-12T09:05:00+01:00"
 * section.entry = Reference(if810168-ee7c-4f34-8012-9aff6c1d86e7)
-* date = "2026-12-12T10:05:00+01:00"
+* date = "2026-12-12T14:50:00+01:00"
 * language = #da "Danish"
 
 

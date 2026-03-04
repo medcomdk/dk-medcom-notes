@@ -30,14 +30,16 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * subject 1..1 MS
 * subject only Reference(MedComDocumentPatient)
 * performer 1..2
-* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitionerRole)
+//* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitionerRole)
 * performer ^short = "Who is responsible for the note (Da: journalnotatet)"
-* performer ^slicing.discriminator.type = #profile
-* performer ^slicing.discriminator.path = "$this.resolve()"
+* performer ^slicing.discriminator[0].type = #type
+* performer ^slicing.discriminator[0].path = "$this.resolve()"
+* performer ^slicing.ordered = false
 * performer ^slicing.rules = #closed
 * performer contains
-    organization 1..1 and
-    practitionerRole 0..1
+    practitionerRole 0..1 and 
+    organization 1..1
+    
 * performer[organization] only Reference(MedComDocumentOrganization)
 * performer[organization] ^short = "organization responsible for the note (Da: journalnotatet)"
 * performer[practitionerRole] only Reference(MedComDocumentPractitionerRole)
