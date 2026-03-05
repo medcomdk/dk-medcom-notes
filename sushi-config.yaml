@@ -3,7 +3,7 @@ canonical: http://medcomfhir.dk/ig/notes
 name: MedComNotes
 title: DK MedCom Notes
 description: The DK MedCom Notes IG
-status: active # draft | active | retired | unknown
+status: draft # draft | active | retired | unknown
 version: 1.0.0
 fhirVersion: 4.0.1
 copyrightYear: 2025+

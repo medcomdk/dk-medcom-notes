@@ -37,7 +37,7 @@ Usage: #example
 * confidentiality = #N
 * event.period.start = "2026-12-10T10:00:00+01:00"
 * section.entry = Reference(d2c9d517-3abd-450e-a3c2-18f18da6fd88)
-* date = "2026-12-10T10:15:00+01:00"
+* date = "2026-12-10T10:00:00+01:00"
 * language = #da "Danish"
 
 
@@ -80,10 +80,10 @@ Usage: #example
 * code.coding[LOINC].code = #11488-4
 * code.coding[LOINC].display = "Consult note"
 * subject = Reference(b3b07166-24d7-462b-acb3-1a29269c4740)
-* effectiveDateTime = "2026-12-10T00:00:00Z"
-* performer = Reference(b3860fb8-4b1d-4be5-8290-e6a026d10555)
+* effectiveDateTime = "2026-12-10T10:00:00+01:00"
+* performer[organization] = Reference(b3860fb8-4b1d-4be5-8290-e6a026d10555)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
-* extension[valueAttachment].valueAttachment.contentType = #application/xhtml+xml
+* extension[valueAttachment].valueAttachment.contentType = #text/html
 * extension[valueAttachment].valueAttachment.title = "Journalnotat"
 * extension[valueAttachment].valueAttachment.data = "w6Vyc2tvbnRyb2w6IEJUIDEzOC84MiBtbUhn"
 

@@ -23,14 +23,29 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * extension[valueAttachment].valueAttachment.data 1..1 MS
 * extension[valueAttachment].valueAttachment.data ^short = "Base64-encoded content of the note (Da: journalnotatet)"
 * extension[valueAttachment].valueAttachment.contentType 1..1 MS
-* extension[valueAttachment].valueAttachment.contentType = #application/xhtml+xml (exactly)
+* extension[valueAttachment].valueAttachment.contentType = #text/html (exactly)
 * extension[valueAttachment].valueAttachment.contentType ^short = "MIME type of the note"
 * extension[valueAttachment].valueAttachment.title 1..1 MS
 * extension[valueAttachment].valueAttachment.title ^short = "Either the title of the note written by the responsible or a generic title e.g. 'Journalnotat'."
 * subject 1..1 MS
 * subject only Reference(MedComDocumentPatient)
-* performer ..1
-* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole)
+* performer 1..3
+* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitionerRole or MedComDocumentPractitioner)
+* performer ^short = "Who is responsible for the note (Da: journalnotatet)"
+* performer ^slicing.discriminator[0].type = #type
+* performer ^slicing.discriminator[0].path = "$this.resolve()"
+* performer ^slicing.ordered = false
+* performer ^slicing.rules = #closed
+* performer contains
+    practitionerRole 0..1 and 
+    organization 1..1 and 
+    practitioner 0..1    
+* performer[organization] only Reference(MedComDocumentOrganization)
+* performer[organization] ^short = "organization responsible for the note (Da: journalnotatet)"
+* performer[practitionerRole] only Reference(MedComDocumentPractitionerRole)
+* performer[practitionerRole] ^short = "practitionerRole responsible for the note (Da: journalnotatet)"
+* performer[practitioner] only Reference(MedComDocumentPractitioner)
+* performer[practitioner] ^short = "practitioner responsible for the note (Da: journalnotatet)"
 
 
 * insert ProducerShallPutInNarrative(effectiveDateTime)

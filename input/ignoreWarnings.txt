@@ -3,3 +3,10 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# This is an example and is expected behavior
+Reference is external which isn't supported by the specified aggregation mode(s) for the reference (bundled)
+
+# Unable to check definition
+%No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'%
+%No definition could be found for URL value 'urn:oid:1.2.208.176.1.4'%
