@@ -11,12 +11,12 @@
 
 
 This page presents MedCom’s Shared Notes standard (Danish: Deling af journalnotater).
-The purpose of the standard is to enable the secure and structured sharing of notes (Da: journalnotater) initially from general practitioners’ systems (LPS). The Shared Notes standard supports the exchange of personally identifiable health information and ensures that notes can be accessed consistently and safely across sectors. The standard contributes to better care coordination and continuity by giving authorized healthcare professionals access to up-to-date documentation from other healthcare professionals.
+The purpose of the standard is to enable the secure and structured sharing of notes (Danish: journalnotater) initially from general practitioners’ Electonic Medical Record (EMR) systems (Danish: Lægepraksissystem). The Shared Notes standard supports the exchange of personally identifiable health information and ensures that notes can be accessed consistently and safely across sectors. The standard contributes to better care coordination and continuity by giving authorized healthcare professionals access to up-to-date documentation from other healthcare professionals.
 
 The Notes standard is implemented as a FHIR Document and shared over the National Service Platform (NSP) in Denmark. A simple illustration of the flow of data is depicted in <a href="#Fig1">Figure 1</a>. A short description of the flow follows: 
 1. The general practitioner documents the consultation by authoring a note, which may include relevant assessments, observations, and decisions.
 2. The note is made available for sharing through the national healthcare infrastructure in accordance with applicable authorization and access rules.  
-3. Another healthcare professional with the appropriate authorization requests access to the shared note.  
+3. Another healthcare professional or authorized citizen with the appropriate authorization requests access to the shared note.  
 4. A document containing the journal note is retrieved and made available, allowing the healthcare professional to review the clinical documentation from the consultation.
 
 <figure>
@@ -27,17 +27,17 @@ The Notes standard is implemented as a FHIR Document and shared over the Nationa
 
 
 ## 1 Standard Documentation {#standard}
-On the project page for <a href="INDSÆT LINK" target="_blank">Shared notes on NSPOP</a>, the following documentation can be found: 
+On the project page for <a href="INDSÆT LINK" target="_blank">Shared notes on NSPOP</a>(link will be provided), the following documentation can be found: 
   * Overall purpose of the standard
   * Logical information and data models
   * Business rules
-  * Technical guide for implementation of the Shared Notes standard.
+  * Technical guide for implementation of the Shared Notes standard
+  * Mapping from logical data model to Shared Notes Standard
 
 On this page, provided by MedCom, additional information on how to implement the standard Shared Notes:
   * User stories
   * Use cases
-  * Technical specifications in terms of the relevant Implementation Guide (IG).
-  * Mapping from logical data model to Shared Notes
+  * Technical specifications in terms of the relevant Implementation Guide (IG)
   * Material for test and certification
 <p>&nbsp;</p>
 
@@ -50,17 +50,13 @@ A user story is an informal, general description of a systems functionality as p
 
 Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a document. The purpose of the use cases is to ensure a coherent implementation and use of the Shared Notes standard. The descriptions are targeted IT-system vendors and the people responsible for the implementation.
 
-[Use cases (pdf)](assets/documents/UseCases_SharedNotes.pdf) <br>
+[Use cases (pdf)](assets/documents/UseCases_SharedNotes_eng.pdf) <br>
 
 ### 1.3 Technical specification
 The technical specification for the Shared Notes standard is composed by profiles from two IGs.
 * <a href="http://medcomfhir.dk/ig/document|2.0.0" target="_blank">MedCom Document</a>, which provides the overall document structure and base requirements
 * <a href="http://medcomfhir.dk/ig/notes|1.0.0" target="_blank">MedCom Shared Notes</a>, which provides the requirements specific for the use of the Shared Notes standard.
 
-### 1.4 Mapping from logical data model to Notes
-The follwoing page is intended to help translate the logical data model to the FHIR Notes standard. More information about the mapping can be found on the following page.
-
-[Mapping: TBD]() <br>
 
 ## 2 Test and Certification
 Certification of a system implies both an approved testprotocol and run-through of test scripts in ITB (Interoperability Test Bed). ITB describes an infrastructure that allows for automated test and validation against the IG's developed by MedCom. 
@@ -68,10 +64,9 @@ Certification of a system implies both an approved testprotocol and run-through 
 [Click here to find the description of test and certification of FHIR standards in MedCom.](https://medcom.github.io/GitHubPagesTest/#test-and-certification). 
 
 **Providing a Notes document**
-  * Testprotocol
-  * ITB Testscripts
+  * ITB test protocol
 <p>&nbsp;</p>
  
 **Retrieving a Notes document**
-  * Testprotocol
+  * ITB test protocol
 <p>&nbsp;</p>
