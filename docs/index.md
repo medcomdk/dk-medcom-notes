@@ -50,7 +50,7 @@ A user story is an informal, general description of a systems functionality as p
 
 Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a document. The purpose of the use cases is to ensure a coherent implementation and use of the Shared Notes standard. The descriptions are targeted IT-system vendors and the people responsible for the implementation.
 
-[Use cases (pdf)](assets/documents/UseCases_SharedNotes.pdf) <br>
+[Use cases (pdf)](assets/documents/UseCases_SharedNotes_eng.pdf) <br>
 
 ### 1.3 Technical specification
 The technical specification for the Shared Notes standard is composed by profiles from two IGs.
