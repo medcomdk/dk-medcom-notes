@@ -8,8 +8,10 @@ The `Composition.section.entry` element **MUST** reference the MedComNotesObserv
 
 The `Composition.title` **MUST** be (in Danish) "Journalnotat for '**CPR-nummer**'", where 'CPR-nummer' is the actual identifier for the patient (Patient.identifier.value).
 
-The `Composition.type` is fixed to the LOINC code "11488-4 Consult note", as it represents the content of the document on a high level.
+The `Composition.type` is fixed to the SNOMED CT code "866144008 Encounter note", as it represents the content of the document on a high level.
 
 
 ## Timestamps
 The `Composition.date` **MUST**  be the last update date of the note performed by the patient's healthcare provider e.g. general practitioner must be included (Da: dato og tid for seneste opdatering af notatet). 
+
+The `Composition.event.period.start` **MUST** be the date and time the note originally was created and is used to represent servicestart time in metadata. The `Composition.event.period.end` is the end of creation of the note. This timestamp should be included if known.
