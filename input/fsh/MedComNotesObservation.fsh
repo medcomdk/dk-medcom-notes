@@ -11,12 +11,13 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * effectiveDateTime MS
 * effectiveDateTime ^short = "Date and time the note was created (Da: Oprettelsestidspunkt for notatet)"
 * effectiveDateTime obeys medcom-datetime-has-time-offset-zulu
-* code.coding[LOINC] 1..1 MS
-* code.coding[LOINC].code MS
-* code.coding[LOINC].code = #11488-4 (exactly)
-* code.coding[LOINC].display 1.. MS
-* code.coding[LOINC].display = "Consult note" (exactly)
-* code.coding[LOINC].system MS
+* code.coding[SNOMEDCT] 1..1 MS
+* code.coding[SNOMEDCT].code MS
+* code.coding[SNOMEDCT].code = #866144008 (exactly)
+* code.coding[SNOMEDCT].display 1.. MS
+* code.coding[SNOMEDCT].display = "Encounter note" (exactly)
+* code.coding[SNOMEDCT].display 1.. MS
+* code.coding[SNOMEDCT].system MS
 * extension[valueAttachment].url MS
 * extension[valueAttachment] 1..1 MS
 * extension[valueAttachment].valueAttachment 1..1 MS
@@ -25,8 +26,6 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * extension[valueAttachment].valueAttachment.contentType 1..1 MS
 * extension[valueAttachment].valueAttachment.contentType = #text/html (exactly)
 * extension[valueAttachment].valueAttachment.contentType ^short = "MIME type of the note"
-* extension[valueAttachment].valueAttachment.title 1..1 MS
-* extension[valueAttachment].valueAttachment.title ^short = "Either the title of the note written by the responsible or a generic title e.g. 'Journalnotat'."
 * subject 1..1 MS
 * subject only Reference(MedComDocumentPatient)
 * performer 1..3
@@ -49,8 +48,8 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 
 
 * insert ProducerShallPutInNarrative(effectiveDateTime)
-* insert ProducerShallPutInNarrative(code.coding[LOINC].code)
-* insert ProducerShallPutInNarrative(code.coding[LOINC].display)
-* insert ProducerShallPutInNarrative(code.coding[LOINC].system)
+* insert ProducerShallPutInNarrative(code.coding[SNOMEDCT].code)
+* insert ProducerShallPutInNarrative(code.coding[SNOMEDCT].display)
+* insert ProducerShallPutInNarrative(code.coding[SNOMEDCT].system)
 * insert ProducerShallPutInNarrative(extension[valueAttachment].valueAttachment.contentType)
 * insert ProducerShallPutInNarrative(extension[valueAttachment].valueAttachment.title)

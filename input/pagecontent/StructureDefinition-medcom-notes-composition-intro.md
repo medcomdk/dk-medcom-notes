@@ -8,7 +8,7 @@ The `Composition.section.entry` element **MUST** reference the MedComNotesObserv
 
 The `Composition.title` **MUST** be (in Danish) "Journalnotat for '**CPR-nummer**'", where 'CPR-nummer' is the actual identifier for the patient (Patient.identifier.value).
 
-The `Composition.type` is fixed to the LOINC code "11488-4 Consult note", as it represents the content of the document on a high level.
+The `Composition.type` is fixed to the SNOMED CT code "866144008 Encounter note", as it represents the content of the document on a high level.
 
 
 ## Timestamps

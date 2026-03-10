@@ -2,9 +2,9 @@ Profile: MedComNotesComposition
 Parent: MedComDocumentComposition
 Id: medcom-notes-composition
 Description: "A profile for the MedCom Notes Composition resource."
-* type.coding.system = $Loinc (exactly)
-* type.coding.code = #11488-4 (exactly)
-* type.coding.display = "Consult note" (exactly)
+* type.coding.system = $sct (exactly)
+* type.coding.code = #866144008 (exactly)
+* type.coding.display = "Encounter note" (exactly)
 * date ^short = "Last update of the note (Da: Seneste opdatering af notatet)"
 * title ^short = "Title MUST be 'Journalnotat for **CPR-nummer**'" 
 * meta.profile obeys medcom-canonical-fixed-major

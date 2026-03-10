@@ -1,4 +1,5 @@
 Alias: $Loinc = http://loinc.org
+Alias: $sct = http://snomed.info/sct
 
 Alias: $ClassCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-classcode-CS //skal måske ikke bruges alligevel
 Alias: $ObsStatusCodeSystem = http://hl7.org/fhir/observation-status

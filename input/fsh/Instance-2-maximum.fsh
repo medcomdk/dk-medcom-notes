@@ -28,9 +28,9 @@ Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:47ef2e1b-5f14-42ca-bd8f-feafb4154240"
 * status = #final
-* type.coding.system = $Loinc
-* type.coding.code = #11488-4
-* type.coding.display = "Consult note"
+* type.coding.system = $sct
+* type.coding.code = #866144008	
+* type.coding.display = "Encounter note"
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
 * category.coding.display = "Klinisk rapport"
@@ -104,9 +104,9 @@ Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:3e4907e4-a5f9-4403-b0a0-9b3201a97074"
 * status = $ObsStatusCodeSystem#final
-* code.coding[LOINC].system = $Loinc
-* code.coding[LOINC].code = #11488-4
-* code.coding[LOINC].display = "Consult note"
+* code.coding[SNOMEDCT].system = $sct
+* code.coding[SNOMEDCT].code = #866144008
+* code.coding[SNOMEDCT].display = "Encounter note"
 * subject = Reference(d65cd8db-4520-4264-87be-a5fd01fb9762)
 * effectiveDateTime = "2026-12-12T09:05:00Z"
 * performer[organization] = Reference(f8d0eb07-5336-4005-9081-b065f9a82663)
@@ -114,7 +114,6 @@ Usage: #example
 * performer[practitioner] = Reference(48ed6310-3095-44da-9e34-d1cd6bd830c9)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #text/html
-* extension[valueAttachment].valueAttachment.title = "Årskontrol af diabetes"
 * extension[valueAttachment].valueAttachment.data = "IDxwPlBhdGllbnRlbiBzZXMgdGlsIDxiPsOlcnNrb250cm9sIGFmIGRpYWJldGVzPC9iPi4gQmVoYW5kbGluZyBmw7hsZ2VzLCBvZyBwdC4gYW5naXZlciBpbmdlbiBoeXBvZ2x5a8OmbWlza2UgZXBpc29kZXIuPC9wPgoKPHA+T2JqZWt0aXZ0Ojxici8+CkJUIDEzOC84MiBtbUhnLiBCTUkgPGk+MjcsMzwvaT4uIEZvZHN0YXR1cyB1LmEuPC9wPgoKPHA+UGFyYWtsaW5pazo8YnIvPgpIYkExYyA1OCBtbW9sL21vbCAoPGVtPm92ZXIgbcOlbDwvZW0+KS48L3A+Cgo8cD5WdXJkZXJpbmcvcGxhbjogPGI+VHlwZSAyIGRpYWJldGVzPC9iPiBtZWQgZGVsdmlzIHJlZ3VsZXJpbmcuIEp1c3RlcmluZyBhZiBtZXRmb3JtaW4gb2cgcsOlZGdpdm5pbmcgb20gbGl2c3N0aWwuIEtvbnRyb2wgb20gNiBtZHIuPC9wPgoKPHA+VW5kZXJza3JpZnQ6IERyLiA8dHQ+QW5kZXJzZW48L3R0PjwvcD4="
 
 
