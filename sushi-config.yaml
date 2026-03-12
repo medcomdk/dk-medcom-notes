@@ -7,7 +7,7 @@ status: active # draft | active | retired | unknown
 version: 1.0.0
 fhirVersion: 4.0.1
 copyrightYear: 2025+
-releaseLabel: trial-use
+releaseLabel: Release
 publisher:
   name: MedCom
   url: http://www.medcom.dk
