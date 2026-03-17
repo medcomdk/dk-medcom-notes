@@ -54,8 +54,8 @@ Use cases describe the different scenarios a standard support. For a certain rea
 
 ### 1.3 Technical specification
 The technical specification for the Shared Notes standard is composed by profiles from two IGs.
-* <a href="http://medcomfhir.dk/ig/document|2.0.0" target="_blank">MedCom Document</a>, which provides the overall document structure and base requirements
-* <a href="http://medcomfhir.dk/ig/notes|1.0.0" target="_blank">MedCom Shared Notes</a>, which provides the requirements specific for the use of the Shared Notes standard.
+* <a href="http://medcomfhir.dk/ig/document/2.0.0" target="_blank">MedCom Document</a>, which provides the overall document structure and base requirements
+* <a href="http://medcomfhir.dk/ig/notes/" target="_blank">MedCom Shared Notes</a>, which provides the requirements specific for the use of the Shared Notes standard.
 
 
 ## 2 Test and Certification
