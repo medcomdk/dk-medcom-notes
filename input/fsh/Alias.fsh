@@ -12,7 +12,7 @@ Alias: $ClassCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core
 Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
 
 // Aliases for metadata profiles
-Alias: $NotesComposition = http://medcomfhir.dk/ig/notes/StructureDefinition/medcom-notes-composition
+Alias: $NotesComposition = http://medcomfhir.dk/ig/notes/StructureDefinition/medcom-notes-composition|1.0
 Alias: $NotesObservation = http://medcomfhir.dk/ig/notes/StructureDefinition/medcom-notes-observation
 Alias: $NotesBundle = http://medcomfhir.dk/ig/notes/StructureDefinition/medcom-notes-bundle
 Alias: $CorePractitioner = http://medcomfhir.dk/ig/document/StructureDefinition/medcom-document-practitioner
