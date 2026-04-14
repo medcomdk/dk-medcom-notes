@@ -74,7 +74,7 @@ InstanceOf: MedComDocumentPractitionerRole
 Title: "PractitionerRole"
 Description: "PractitionerRole with a role and reference to a practitioner and an organization"
 * meta.profile = $CorePractitionerRole
-* code = $PractitionerRole#speciallaegeipraksis
+* code = $PractitionerRole#sygeplejerske
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:73ffaf86-07a3-4807-ae68-8506dfefb636"
 * organization = Reference(3bce1388-d009-464a-a3a0-c6a5ec8de93d)
