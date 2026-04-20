@@ -37,6 +37,7 @@ Usage: #example
 * category.coding.display = "Klinisk rapport"
 * subject = Reference(3cb8555f-dc68-4d35-b78d-ec2dac0164d7)
 * author[institution] = Reference(6f02a235-4dba-4588-8dc2-20d69dd21f05)
+* author[person] = Reference(30b557c3-0034-4011-96cd-c96cc27c49b9)
 * title = "Journalnotat for 0211223989"
 * confidentiality = #N
 * event.period.start = "2026-05-05T10:11:00+02:00"
