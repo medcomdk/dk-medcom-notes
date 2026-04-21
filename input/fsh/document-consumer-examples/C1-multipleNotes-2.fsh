@@ -82,7 +82,7 @@ Description: "PractitionerRole with a role and reference to a practitioner and a
 * code = $PractitionerRole#speciallaegeipraksis
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:14f77f70-7e95-4c95-a102-3727d03b0b01"
-* organization = Reference(101f0d1a-9186-4a48-8594-8c06db5745f1)
+* organization = Reference(c67aee02-81c7-473b-8b89-e5548f263e9e)
 
 Instance: aa39387d-ad66-4ae5-9c80-7a6041f10e9a
 InstanceOf: MedComDocumentPractitioner
