@@ -1,1 +1,1 @@
-Initial release as trial-use.
+Release of Notes document standard.
