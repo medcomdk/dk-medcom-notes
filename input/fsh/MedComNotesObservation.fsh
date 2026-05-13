@@ -52,4 +52,3 @@ Description: "Observation profile intended to be used in MedCom's Notes standard
 * insert ProducerShallPutInNarrative(code.coding[SNOMEDCT].display)
 * insert ProducerShallPutInNarrative(code.coding[SNOMEDCT].system)
 * insert ProducerShallPutInNarrative(extension[valueAttachment].valueAttachment.contentType)
-* insert ProducerShallPutInNarrative(extension[valueAttachment].valueAttachment.title)
