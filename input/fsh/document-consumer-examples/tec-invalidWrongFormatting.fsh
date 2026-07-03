@@ -84,6 +84,9 @@ Usage: #example
 * performer[organization] = Reference(a179f4ec-d872-45a7-bfd9-5a9f9694531e)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #text/html
-* extension[valueAttachment].valueAttachment.data = "PHA+UGF0aWVudGVuIG3DuGRlciBtZWQgdHLDpnRoZWRcdGxldCBzdmltbWVsaGVkXHR1cm8gaSBrcm9wcGVuXHRzb3ZlciBkw6VybGlndDwvcD48cD5JbmdlbiBmZWJlclx0aW5nZW4gaG9zdGVcdGluZ2VuIHbDpmd0dGFiXHRhcHBldGl0IGxldCBuZWRzYXQ8L3A+PHA+QlQgMTM2LzgyXHRwdWxzIDcyXHRjb3IvcHVsbSB1YVx0YWJkb21lbiBibMO4ZCBvZyB1w7htPC9wPjxwPkJsb2RwcsO4dmVyIHBsYW5sw6ZnZ2VzXHRwYXRpZW50IGluZm9ybWVyZXRcdG9wZsO4bGduaW5nIGFmdGFsdFx0a29udGFrdCB2ZWQgZm9ydsOmcnJpbmc8L3A+"
+* extension[valueAttachment].valueAttachment.data = "PHA+UGF0aWVudGVuIG3DuGRlciBtZWQgdHLDpnRoZWQJbGV0IHN2aW1tZWxoZWQJdXJvIGkga3JvcHBlbglzb3ZlciBkw6VybGlndA0KPHA+SW5nZW4gZmViZXIJaW5nZW4gaG9zdGUJaW5nZW4gdsOmZ3R0YWIJYXBwZXRpdCBsZXQgbmVkc2F0PC9kaXY+DQo8cD5CVCAxMzYvODIJcHVscyA3Mgljb3IvcHVsbSB1YQlhYmRvbWVuIGJsw7hkIG9nIHXDuG08L3A+DQo8cD5CbG9kcHLDuHZlciBwbGFubMOmZ2dlcwlwYXRpZW50IGluZm9ybWVyZXQJb3Bmw7hsZ25pbmcgYWZ0YWx0CWtvbnRha3QgdmVkIGZvcnbDpnJyaW5n"
 
-/*<p>Patienten møder med træthed\tlet svimmelhed\turo i kroppen\tsover dårligt</p><p>Ingen feber\tingen hoste\tingen vægttab\tappetit let nedsat</p><p>BT 136/82\tpuls 72\tcor/pulm ua\tabdomen blød og uøm</p><p>Blodprøver planlægges\tpatient informeret\topfølgning aftalt\tkontakt ved forværring</p> */
+/*<p>Patienten møder med træthed	let svimmelhed	uro i kroppen	sover dårligt
+<p>Ingen feber	ingen hoste	ingen vægttab	appetit let nedsat</div>
+<p>BT 136/82	puls 72	cor/pulm ua	abdomen blød og uøm</p>
+<p>Blodprøver planlægges	patient informeret	opfølgning aftalt	kontakt ved forværring */

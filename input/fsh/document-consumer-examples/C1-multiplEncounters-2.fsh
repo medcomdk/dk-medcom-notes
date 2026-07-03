@@ -84,8 +84,8 @@ Usage: #example
 * performer[organization] = Reference(41744c19-cd74-4ed4-a941-ec5661add4c7)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #text/html
-* extension[valueAttachment].valueAttachment.data = "PHg6cD5QYXRpZW50ZW4gaGVudmVuZGVyIHNpZyBtZWQgaG9zdGUgZ2VubmVtIDMgZGFnZS4gSW5nZW4gZmViZXIgb2cgYWxtZW50IHVww6V2aXJrZXQuIFZ1cmRlcmVzIHNvbSBsZXQgw7h2cmUgbHVmdHZlanNpbmZla3Rpb24uIFLDpWQgb20gdsOmc2tlIG9nIGtvbnRha3QgdmVkIGZvcnbDpnJyaW5nLjwveDpwPg=="
+* extension[valueAttachment].valueAttachment.data = "PHA+UGF0aWVudGVuIGhlbnZlbmRlciBzaWcgbWVkIGhvc3RlIGdlbm5lbSAzIGRhZ2UuIEluZ2VuIGZlYmVyIG9nIGFsbWVudCB1cMOldmlya2V0LiBWdXJkZXJlcyBzb20gbGV0IMO4dnJlIGx1ZnR2ZWpzaW5mZWt0aW9uLiBSw6VkIG9tIHbDpnNrZSBvZyBrb250YWt0IHZlZCBmb3J2w6ZycmluZy48L3A+"
 
 /*Notat: 
-<x:p>Patienten henvender sig med hoste gennem 3 dage. Ingen feber og alment upåvirket. Vurderes som let øvre luftvejsinfektion. Råd om væske og kontakt ved forværring.</x:p>
+<p>Patienten henvender sig med hoste gennem 3 dage. Ingen feber og alment upåvirket. Vurderes som let øvre luftvejsinfektion. Råd om væske og kontakt ved forværring.</p>
 */

@@ -96,23 +96,23 @@ Usage: #example
 * performer[practitionerRole] = Reference(a154b7fb-1cca-4311-885c-5792561c127f)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #text/html
-* extension[valueAttachment].valueAttachment.data = "PHg6cD5QYXRpZW50ZW4gZXIga2VuZHQgaSBrbGluaWtrZW4gZ2VubmVtIG1hbmdlIMOlciBvZyBtw7hkZXIgaSBkYWcgdGlsIG9wZsO4bGduaW5nLiBPcGx5c2VyIGdlbmVyZWx0IGF0IGhhdmUgZGV0IGdvZHQsIG1lbiBmw7hsZXIgc2lnIG1lcmUgdHLDpnQgZW5kIHZhbmxpZ3QgZGVuIHNlbmVzdGUgbcOlbmVkLjwveDpwPg0KPHg6cD48eDpiPjx4OmVtPkFrdHVlbHQ8L3g6ZW0+PC94OmI+PHg6YnIvPg0KICAgIFBhdGllbnRlbiBiZXNrcml2ZXIgdGlsdGFnZW5kZSB0csOmdGhlZCwgbGV0IG5lZHNhdCBhcHBldGl0IG9nIHBlcmlvZGV2aXMgc3ZpbW1lbGhlZCB2ZWQgc3RpbGxpbmdzc2tpZnQuPHg6YnIvPg0KICAgIERlciBoYXIgaWtrZSB2w6ZyZXQgZmViZXIsIGhvc3RlIGVsbGVyIHbDpmd0dGFiLiA8eDppPlNvdmVyIHVyb2xpZ3Qgb20gbmF0dGVuLjwveDppPg0KPC94OnA+DQo8eDpwPjx4OmI+PHg6ZW0+T2JqZWt0aXZ0PC94OmVtPjwveDpiPjx4OmJyLz4NCiAgICBVcMOldmlya2V0IGFsbWVudGlsc3RhbmQuIEJsb2R0cnlrIDEzOC84NCwgcHVscyA3MiBvZyByZWdlbG3DpnNzaWcuPHg6YnIvPg0KICAgIENvciBvZyBwdWxtIHVkZW4gc2lrcmUgcGF0b2xvZ2lza2UgZnVuZC4gPHg6Yj5JbmdlbiDDuGRlbWVyIHDDpSB1bmRlcmVrc3RyZW1pdGV0ZXJuZS48L3g6Yj4NCjwveDpwPg0KPHg6cD48eDpiPjx4OmVtPlZ1cmRlcmluZzwveDplbT48L3g6Yj48eDpici8+DQogICAgU3ltcHRvbWVybmUgdnVyZGVyZXMgdXNwZWNpZmlra2Ugb2cgdWRlbiBzaWtyZSBhbGFybXN5bXB0b21lciBww6UgbnV2w6ZyZW5kZSB0aWRzcHVua3QuPHg6YnIvPg0KICAgIDx4OmI+QmxvZHByw7h2ZXIgcGxhbmzDpmdnZXM8L3g6Yj4gbWVkIGhlbmJsaWsgcMOlIG7DpnJtZXJlIGFma2xhcmluZy4gPHg6Yj48eDppPlBhdGllbnRlbiBpbmZvcm1lcmV0IG9tIHBsYW5lbi48L3g6aT48L3g6Yj4NCjwveDpwPg0KPHg6cD48eDpiPjx4OmVtPlBsYW48L3g6ZW0+PC94OmI+PHg6YnIvPg0KICAgIERlciBiZXN0aWxsZXMgcmVsZXZhbnRlIGJsb2RwcsO4dmVyIG9nIGFmdGFsZXMgb3Bmw7hsZ25pbmcsIG7DpXIgc3ZhciBmb3JlbGlnZ2VyLjx4OmJyLz4NCiAgICBQYXRpZW50ZW4gYmVkZXMga29udGFrdGUga2xpbmlra2VuIHZlZCA8eDpiPmZvcnbDpnJyaW5nIGkgYWxtZW50aWxzdGFuZDwveDpiPiwgdGlsdGFnZW5kZSBzdmltbWVsaGVkIGVsbGVyIG55ZSBzeW1wdG9tZXIuIDx4OmI+PHg6aT5Ba3V0IGtvbnRha3QgdmVkIGJyeXN0c21lcnRlciBlbGxlciDDpW5kZW7DuGQuPC94Omk+PC94OmI+DQo8L3g6cD4="
+* extension[valueAttachment].valueAttachment.data = "PHA+UGF0aWVudGVuIGVyIGtlbmR0IGkga2xpbmlra2VuIGdlbm5lbSBtYW5nZSDDpXIgb2cgbcO4ZGVyIGkgZGFnIHRpbCBvcGbDuGxnbmluZy4gT3BseXNlciBnZW5lcmVsdCBhdCBoYXZlIGRldCBnb2R0LCBtZW4gZsO4bGVyIHNpZyBtZXJlIHRyw6Z0IGVuZCB2YW5saWd0IGRlbiBzZW5lc3RlIG3DpW5lZC48L3A+DQo8cD48Yj48ZW0+QWt0dWVsdDwvZW0+PC9iPjxici8+DQogICAgUGF0aWVudGVuIGJlc2tyaXZlciB0aWx0YWdlbmRlIHRyw6Z0aGVkLCBsZXQgbmVkc2F0IGFwcGV0aXQgb2cgcGVyaW9kZXZpcyBzdmltbWVsaGVkIHZlZCBzdGlsbGluZ3Nza2lmdC48YnIvPg0KICAgIERlciBoYXIgaWtrZSB2w6ZyZXQgZmViZXIsIGhvc3RlIGVsbGVyIHbDpmd0dGFiLiA8aT5Tb3ZlciB1cm9saWd0IG9tIG5hdHRlbi48L2k+DQo8L3A+DQo8cD48Yj48ZW0+T2JqZWt0aXZ0PC9lbT48L2I+PGJyLz4NCiAgICBVcMOldmlya2V0IGFsbWVudGlsc3RhbmQuIEJsb2R0cnlrIDEzOC84NCwgcHVscyA3MiBvZyByZWdlbG3DpnNzaWcuPGJyLz4NCiAgICBDb3Igb2cgcHVsbSB1ZGVuIHNpa3JlIHBhdG9sb2dpc2tlIGZ1bmQuIDxiPkluZ2VuIMO4ZGVtZXIgcMOlIHVuZGVyZWtzdHJlbWl0ZXRlcm5lLjwvYj4NCjwvcD4NCjxwPjxiPjxlbT5WdXJkZXJpbmc8L2VtPjwvYj48YnIvPg0KICAgIFN5bXB0b21lcm5lIHZ1cmRlcmVzIHVzcGVjaWZpa2tlIG9nIHVkZW4gc2lrcmUgYWxhcm1zeW1wdG9tZXIgcMOlIG51dsOmcmVuZGUgdGlkc3B1bmt0Ljxici8+DQogICAgPGI+QmxvZHByw7h2ZXIgcGxhbmzDpmdnZXM8L2I+IG1lZCBoZW5ibGlrIHDDpSBuw6ZybWVyZSBhZmtsYXJpbmcuIDxiPjxpPlBhdGllbnRlbiBpbmZvcm1lcmV0IG9tIHBsYW5lbi48L2k+PC9iPg0KPC9wPg0KPHA+PGI+PGVtPlBsYW48L2VtPjwvYj48YnIvPg0KICAgIERlciBiZXN0aWxsZXMgcmVsZXZhbnRlIGJsb2RwcsO4dmVyIG9nIGFmdGFsZXMgb3Bmw7hsZ25pbmcsIG7DpXIgc3ZhciBmb3JlbGlnZ2VyLjxici8+DQogICAgUGF0aWVudGVuIGJlZGVzIGtvbnRha3RlIGtsaW5pa2tlbiB2ZWQgPGI+Zm9ydsOmcnJpbmcgaSBhbG1lbnRpbHN0YW5kPC9iPiwgdGlsdGFnZW5kZSBzdmltbWVsaGVkIGVsbGVyIG55ZSBzeW1wdG9tZXIuIDxiPjxpPkFrdXQga29udGFrdCB2ZWQgYnJ5c3RzbWVydGVyIGVsbGVyIMOlbmRlbsO4ZC48L2k+PC9iPg0KPC9wPg=="
 
 /*Notat: 
-<x:p>Patienten er kendt i klinikken gennem mange år og møder i dag til opfølgning. Oplyser generelt at have det godt, men føler sig mere træt end vanligt den seneste måned.</x:p>
-<x:p><x:b><x:em>Aktuelt</x:em></x:b><x:br/>
-    Patienten beskriver tiltagende træthed, let nedsat appetit og periodevis svimmelhed ved stillingsskift.<x:br/>
-    Der har ikke været feber, hoste eller vægttab. <x:i>Sover uroligt om natten.</x:i>
-</x:p>
-<x:p><x:b><x:em>Objektivt</x:em></x:b><x:br/>
-    Upåvirket almentilstand. Blodtryk 138/84, puls 72 og regelmæssig.<x:br/>
-    Cor og pulm uden sikre patologiske fund. <x:b>Ingen ødemer på underekstremiteterne.</x:b>
-</x:p>
-<x:p><x:b><x:em>Vurdering</x:em></x:b><x:br/>
-    Symptomerne vurderes uspecifikke og uden sikre alarmsymptomer på nuværende tidspunkt.<x:br/>
-    <x:b>Blodprøver planlægges</x:b> med henblik på nærmere afklaring. <x:b><x:i>Patienten informeret om planen.</x:i></x:b>
-</x:p>
-<x:p><x:b><x:em>Plan</x:em></x:b><x:br/>
-    Der bestilles relevante blodprøver og aftales opfølgning, når svar foreligger.<x:br/>
-    Patienten bedes kontakte klinikken ved <x:b>forværring i almentilstand</x:b>, tiltagende svimmelhed eller nye symptomer. <x:b><x:i>Akut kontakt ved brystsmerter eller åndenød.</x:i></x:b>
-</x:p>*/
+<p>Patienten er kendt i klinikken gennem mange år og møder i dag til opfølgning. Oplyser generelt at have det godt, men føler sig mere træt end vanligt den seneste måned.</p>
+<p><b><em>Aktuelt</em></b><br/>
+    Patienten beskriver tiltagende træthed, let nedsat appetit og periodevis svimmelhed ved stillingsskift.<br/>
+    Der har ikke været feber, hoste eller vægttab. <i>Sover uroligt om natten.</i>
+</p>
+<p><b><em>Objektivt</em></b><br/>
+    Upåvirket almentilstand. Blodtryk 138/84, puls 72 og regelmæssig.<br/>
+    Cor og pulm uden sikre patologiske fund. <b>Ingen ødemer på underekstremiteterne.</b>
+</p>
+<p><b><em>Vurdering</em></b><br/>
+    Symptomerne vurderes uspecifikke og uden sikre alarmsymptomer på nuværende tidspunkt.<br/>
+    <b>Blodprøver planlægges</b> med henblik på nærmere afklaring. <b><i>Patienten informeret om planen.</i></b>
+</p>
+<p><b><em>Plan</em></b><br/>
+    Der bestilles relevante blodprøver og aftales opfølgning, når svar foreligger.<br/>
+    Patienten bedes kontakte klinikken ved <b>forværring i almentilstand</b>, tiltagende svimmelhed eller nye symptomer. <b><i>Akut kontakt ved brystsmerter eller åndenød.</i></b>
+</p>*/

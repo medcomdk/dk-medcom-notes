@@ -114,17 +114,17 @@ Usage: #example
 * performer[practitioner] = Reference(aa39387d-ad66-4ae5-9c80-7a6041f10e9a)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #text/html
-* extension[valueAttachment].valueAttachment.data = "PHg6cD5QYXRpZW50ZW4gbcO4ZGVyIHRpbCBibG9kdHJ5a3Nrb250cm9sIG9nIG9wbHlzZXIgYXQgaGF2ZSBkZXQgZ29kdC4gVGFnZXIgc2luIHZhbmxpZ2UgbWVkaWNpbiB1ZGVuIHByb2JsZW1lci48L3g6cD4NCjx4OnA+PHg6Yj48eDplbT5PYmpla3RpdnQ8L3g6ZW0+PC94OmI+PHg6YnIvPg0KICAgIEJsb2R0cnlrIDEzMC83NiwgcHVscyA2OCBvZyByZWdlbG3DpnNzaWcuIDx4OmI+SW5nZW4gYWt0dWVsbGUgZ2VuZXIuPC94OmI+DQo8L3g6cD4NCjx4OnA+PHg6Yj48eDplbT5WdXJkZXJpbmc8L3g6ZW0+PC94OmI+PHg6YnIvPg0KICAgIFZlbHJlZ3VsZXJldCBibG9kdHJ5ayB1bmRlciBiZWhhbmRsaW5nLg0KPC94OnA+DQo8eDpwPjx4OmI+PHg6ZW0+UGxhbjwveDplbT48L3g6Yj48eDpici8+DQogICAgRm9ydHPDpnR0ZXIgdcOmbmRyZXQgYmVoYW5kbGluZy4gTnkga29udHJvbCBhZnRhbGVzIHNlbmVyZS4NCjwveDpwPg=="
+* extension[valueAttachment].valueAttachment.data = "PHA+UGF0aWVudGVuIG3DuGRlciB0aWwgYmxvZHRyeWtza29udHJvbCBvZyBvcGx5c2VyIGF0IGhhdmUgZGV0IGdvZHQuIFRhZ2VyIHNpbiB2YW5saWdlIG1lZGljaW4gdWRlbiBwcm9ibGVtZXIuPC9wPg0KPHA+PGI+PGVtPk9iamVrdGl2dDwvZW0+PC9iPjxici8+DQogICAgQmxvZHRyeWsgMTMwLzc2LCBwdWxzIDY4IG9nIHJlZ2VsbcOmc3NpZy4gPGI+SW5nZW4gYWt0dWVsbGUgZ2VuZXIuPC9iPg0KPC9wPg0KPHA+PGI+PGVtPlZ1cmRlcmluZzwvZW0+PC9iPjxici8+DQogICAgVmVscmVndWxlcmV0IGJsb2R0cnlrIHVuZGVyIGJlaGFuZGxpbmcuDQo8L3A+DQo8cD48Yj48ZW0+UGxhbjwvZW0+PC9iPjxici8+DQogICAgRm9ydHPDpnR0ZXIgdcOmbmRyZXQgYmVoYW5kbGluZy4gTnkga29udHJvbCBhZnRhbGVzIHNlbmVyZS4NCjwvcD4="
 
 /*Notat: 
-<x:p>Patienten møder til blodtrykskontrol og oplyser at have det godt. Tager sin vanlige medicin uden problemer.</x:p>
-<x:p><x:b><x:em>Objektivt</x:em></x:b><x:br/>
-    Blodtryk 130/76, puls 68 og regelmæssig. <x:b>Ingen aktuelle gener.</x:b>
-</x:p>
-<x:p><x:b><x:em>Vurdering</x:em></x:b><x:br/>
+<p>Patienten møder til blodtrykskontrol og oplyser at have det godt. Tager sin vanlige medicin uden problemer.</p>
+<p><b><em>Objektivt</em></b><br/>
+    Blodtryk 130/76, puls 68 og regelmæssig. <b>Ingen aktuelle gener.</b>
+</p>
+<p><b><em>Vurdering</em></b><br/>
     Velreguleret blodtryk under behandling.
-</x:p>
-<x:p><x:b><x:em>Plan</x:em></x:b><x:br/>
+</p>
+<p><b><em>Plan</em></b><br/>
     Fortsætter uændret behandling. Ny kontrol aftales senere.
-</x:p>
+</p>
 */

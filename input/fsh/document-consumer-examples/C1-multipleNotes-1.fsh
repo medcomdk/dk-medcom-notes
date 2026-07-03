@@ -114,17 +114,17 @@ Usage: #example
 * performer[practitioner] = Reference(b6f32609-95d6-4281-a52b-96b6e09f6cbc)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #text/html
-* extension[valueAttachment].valueAttachment.data = "PHg6cD5QYXRpZW50ZW4gaGVudmVuZGVyIHNpZyBtZWQgaG9zdGUgb2cgbGV0IG9uZHQgaSBoYWxzZW4gZ2VubmVtIDQgZGFnZS4gSW5nZW4gZmViZXIgb2cgYWxtZW50IHVww6V2aXJrZXQuPC94OnA+DQo8eDpwPjx4OmI+PHg6ZW0+QWt0dWVsdDwveDplbT48L3g6Yj48eDpici8+DQogICAgT3BsZXZlciB0w7hyIGhvc3RlLCBtZXN0IHVkdGFsdCBvbSBhZnRlbmVuLiA8eDppPkluZ2VuIMOlbmRlbsO4ZC48L3g6aT4NCjwveDpwPg0KPHg6cD48eDpiPjx4OmVtPlZ1cmRlcmluZzwveDplbT48L3g6Yj48eDpici8+DQogICAgRm9yZW5lbGlndCBtZWQgbGV0IMO4dnJlIGx1ZnR2ZWpzaW5mZWt0aW9uLg0KPC94OnA+DQo8eDpwPjx4OmI+PHg6ZW0+UGxhbjwveDplbT48L3g6Yj48eDpici8+DQogICAgUsOlZCBvbSB2w6Zza2Ugb2cga29udGFrdCB2ZWQgPHg6Yj5mb3J2w6ZycmluZzwveDpiPi4NCjwveDpwPg=="
+* extension[valueAttachment].valueAttachment.data = "PHA+UGF0aWVudGVuIGhlbnZlbmRlciBzaWcgbWVkIGhvc3RlIG9nIGxldCBvbmR0IGkgaGFsc2VuIGdlbm5lbSA0IGRhZ2UuIEluZ2VuIGZlYmVyIG9nIGFsbWVudCB1cMOldmlya2V0LjwvcD4NCjxwPjxiPjxlbT5Ba3R1ZWx0PC9lbT48L2I+PGJyLz4NCiAgICBPcGxldmVyIHTDuHIgaG9zdGUsIG1lc3QgdWR0YWx0IG9tIGFmdGVuZW4uIDxpPkluZ2VuIMOlbmRlbsO4ZC48L2k+DQo8L3A+DQo8cD48Yj48ZW0+VnVyZGVyaW5nPC9lbT48L2I+PGJyLz4NCiAgICBGb3JlbmVsaWd0IG1lZCBsZXQgw7h2cmUgbHVmdHZlanNpbmZla3Rpb24uDQo8L3A+DQo8cD48Yj48ZW0+UGxhbjwvZW0+PC9iPjxici8+DQogICAgUsOlZCBvbSB2w6Zza2Ugb2cga29udGFrdCB2ZWQgPGI+Zm9ydsOmcnJpbmc8L2I+Lg0KPC9wPg=="
 
 /*Notat: 
-<x:p>Patienten henvender sig med hoste og let ondt i halsen gennem 4 dage. Ingen feber og alment upåvirket.</x:p>
-<x:p><x:b><x:em>Aktuelt</x:em></x:b><x:br/>
-    Oplever tør hoste, mest udtalt om aftenen. <x:i>Ingen åndenød.</x:i>
-</x:p>
-<x:p><x:b><x:em>Vurdering</x:em></x:b><x:br/>
+<p>Patienten henvender sig med hoste og let ondt i halsen gennem 4 dage. Ingen feber og alment upåvirket.</p>
+<p><b><em>Aktuelt</em></b><br/>
+    Oplever tør hoste, mest udtalt om aftenen. <i>Ingen åndenød.</i>
+</p>
+<p><b><em>Vurdering</em></b><br/>
     Foreneligt med let øvre luftvejsinfektion.
-</x:p>
-<x:p><x:b><x:em>Plan</x:em></x:b><x:br/>
-    Råd om væske og kontakt ved <x:b>forværring</x:b>.
-</x:p>
+</p>
+<p><b><em>Plan</em></b><br/>
+    Råd om væske og kontakt ved <b>forværring</b>.
+</p>
 */

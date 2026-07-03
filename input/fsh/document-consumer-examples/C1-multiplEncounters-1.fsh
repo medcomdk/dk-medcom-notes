@@ -84,24 +84,24 @@ Usage: #example
 * performer[organization] = Reference(de2db32b-d883-4706-873a-eb65445d6677)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #text/html
-* extension[valueAttachment].valueAttachment.data = "PHg6cD5QYXRpZW50ZW4gbcO4ZGVyIHRpbCBvcGbDuGxnbmluZyBvZyBvcGx5c2VyIGF0IGhhdmUgZGV0IHJpbWVsaWd0LCBtZW4gZm9ydHNhdCB2w6ZyZSBsaWR0IHRyw6Z0IGkgaHZlcmRhZ2VuLjwveDpwPg0KPHg6cD48eDpiPjx4OmVtPkFrdHVlbHQ8L3g6ZW0+PC94OmI+PHg6YnIvPg0KICAgIEJlc2tyaXZlciBsZXQgdHLDpnRoZWQgb2cgcGVyaW9kZXZpcyBzdmltbWVsaGVkIHZlZCBodXJ0aWdlIHN0aWxsaW5nc3NraWZ0Ljx4OmJyLz4NCiAgICBJbmdlbiBmZWJlciwgaG9zdGUgZWxsZXIgdsOmZ3R0YWIuIDx4Omk+U292ZXIgbGlkdCB1cm9saWd0IG9tIG5hdHRlbi48L3g6aT4NCjwveDpwPg0KPHg6cD48eDpiPjx4OmVtPk9iamVrdGl2dDwveDplbT48L3g6Yj48eDpici8+DQogICAgVXDDpXZpcmtldCBhbG1lbnRpbHN0YW5kLiBCbG9kdHJ5ayAxMzYvODIsIHB1bHMgNzAgb2cgcmVnZWxtw6Zzc2lnLjx4OmJyLz4NCiAgICBDb3Igb2cgcHVsbSB1ZGVuIHNpa3JlIHBhdG9sb2dpc2tlIGZ1bmQuIDx4OmI+SW5nZW4gw7hkZW1lci48L3g6Yj4NCjwveDpwPg0KPHg6cD48eDpiPjx4OmVtPlZ1cmRlcmluZzwveDplbT48L3g6Yj48eDpici8+DQogICAgVXNwZWNpZmlra2Ugc3ltcHRvbWVyIHVkZW4gYWt0dWVsbGUgYWxhcm1zeW1wdG9tZXIuPHg6YnIvPg0KICAgIDx4OmI+QmxvZHByw7h2ZXIgYmVzdGlsbGVzPC94OmI+IHRpbCBuw6ZybWVyZSB2dXJkZXJpbmcuDQo8L3g6cD4NCjx4OnA+PHg6Yj48eDplbT5QbGFuPC94OmVtPjwveDpiPjx4OmJyLz4NCiAgICBBZnRhbHQgb3Bmw7hsZ25pbmcgbsOlciBwcsO4dmVzdmFyIGZvcmVsaWdnZXIuPHg6YnIvPg0KICAgIFBhdGllbnRlbiBpbmZvcm1lcmV0IG9tIGF0IGtvbnRha3RlIGtsaW5pa2tlbiB2ZWQgPHg6Yj48eDppPmZvcnbDpnJyaW5nIGVsbGVyIG55ZSBzeW1wdG9tZXIuPC94Omk+PC94OmI+DQo8L3g6cD4="
+* extension[valueAttachment].valueAttachment.data = "PHA+UGF0aWVudGVuIG3DuGRlciB0aWwgb3Bmw7hsZ25pbmcgb2cgb3BseXNlciBhdCBoYXZlIGRldCByaW1lbGlndCwgbWVuIGZvcnRzYXQgdsOmcmUgbGlkdCB0csOmdCBpIGh2ZXJkYWdlbi48L3A+DQo8cD48Yj48ZW0+QWt0dWVsdDwvZW0+PC9iPjxici8+DQogICAgQmVza3JpdmVyIGxldCB0csOmdGhlZCBvZyBwZXJpb2RldmlzIHN2aW1tZWxoZWQgdmVkIGh1cnRpZ2Ugc3RpbGxpbmdzc2tpZnQuPGJyLz4NCiAgICBJbmdlbiBmZWJlciwgaG9zdGUgZWxsZXIgdsOmZ3R0YWIuIDxpPlNvdmVyIGxpZHQgdXJvbGlndCBvbSBuYXR0ZW4uPC9pPg0KPC9wPg0KPHA+PGI+PGVtPk9iamVrdGl2dDwvZW0+PC9iPjxici8+DQogICAgVXDDpXZpcmtldCBhbG1lbnRpbHN0YW5kLiBCbG9kdHJ5ayAxMzYvODIsIHB1bHMgNzAgb2cgcmVnZWxtw6Zzc2lnLjxici8+DQogICAgQ29yIG9nIHB1bG0gdWRlbiBzaWtyZSBwYXRvbG9naXNrZSBmdW5kLiA8Yj5JbmdlbiDDuGRlbWVyLjwvYj4NCjwvcD4NCjxwPjxiPjxlbT5WdXJkZXJpbmc8L2VtPjwvYj48YnIvPg0KICAgIFVzcGVjaWZpa2tlIHN5bXB0b21lciB1ZGVuIGFrdHVlbGxlIGFsYXJtc3ltcHRvbWVyLjxici8+DQogICAgPGI+QmxvZHByw7h2ZXIgYmVzdGlsbGVzPC9iPiB0aWwgbsOmcm1lcmUgdnVyZGVyaW5nLg0KPC9wPg0KPHA+PGI+PGVtPlBsYW48L2VtPjwvYj48YnIvPg0KICAgIEFmdGFsdCBvcGbDuGxnbmluZyBuw6VyIHByw7h2ZXN2YXIgZm9yZWxpZ2dlci48YnIvPg0KICAgIFBhdGllbnRlbiBpbmZvcm1lcmV0IG9tIGF0IGtvbnRha3RlIGtsaW5pa2tlbiB2ZWQgPGI+PGk+Zm9ydsOmcnJpbmcgZWxsZXIgbnllIHN5bXB0b21lci48L2k+PC9iPg0KPC9wPg=="
 
 /*Notat: 
-<x:p>Patienten møder til opfølgning og oplyser at have det rimeligt, men fortsat være lidt træt i hverdagen.</x:p>
-<x:p><x:b><x:em>Aktuelt</x:em></x:b><x:br/>
-    Beskriver let træthed og periodevis svimmelhed ved hurtige stillingsskift.<x:br/>
-    Ingen feber, hoste eller vægttab. <x:i>Sover lidt uroligt om natten.</x:i>
-</x:p>
-<x:p><x:b><x:em>Objektivt</x:em></x:b><x:br/>
-    Upåvirket almentilstand. Blodtryk 136/82, puls 70 og regelmæssig.<x:br/>
-    Cor og pulm uden sikre patologiske fund. <x:b>Ingen ødemer.</x:b>
-</x:p>
-<x:p><x:b><x:em>Vurdering</x:em></x:b><x:br/>
-    Uspecifikke symptomer uden aktuelle alarmsymptomer.<x:br/>
-    <x:b>Blodprøver bestilles</x:b> til nærmere vurdering.
-</x:p>
-<x:p><x:b><x:em>Plan</x:em></x:b><x:br/>
-    Aftalt opfølgning når prøvesvar foreligger.<x:br/>
-    Patienten informeret om at kontakte klinikken ved <x:b><x:i>forværring eller nye symptomer.</x:i></x:b>
-</x:p>
+<p>Patienten møder til opfølgning og oplyser at have det rimeligt, men fortsat være lidt træt i hverdagen.</p>
+<p><b><em>Aktuelt</em></b><br/>
+    Beskriver let træthed og periodevis svimmelhed ved hurtige stillingsskift.<br/>
+    Ingen feber, hoste eller vægttab. <i>Sover lidt uroligt om natten.</i>
+</p>
+<p><b><em>Objektivt</em></b><br/>
+    Upåvirket almentilstand. Blodtryk 136/82, puls 70 og regelmæssig.<br/>
+    Cor og pulm uden sikre patologiske fund. <b>Ingen ødemer.</b>
+</p>
+<p><b><em>Vurdering</em></b><br/>
+    Uspecifikke symptomer uden aktuelle alarmsymptomer.<br/>
+    <b>Blodprøver bestilles</b> til nærmere vurdering.
+</p>
+<p><b><em>Plan</em></b><br/>
+    Aftalt opfølgning når prøvesvar foreligger.<br/>
+    Patienten informeret om at kontakte klinikken ved <b><i>forværring eller nye symptomer.</i></b>
+</p>
 */

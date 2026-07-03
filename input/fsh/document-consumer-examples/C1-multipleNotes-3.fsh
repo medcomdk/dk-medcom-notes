@@ -114,17 +114,17 @@ Usage: #example
 * performer[practitioner] = Reference(755b7705-6084-46a9-8601-58a5df669b74)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #text/html
-* extension[valueAttachment].valueAttachment.data = "PHg6cD5QYXRpZW50ZW4ga29udGFrdGVyIGtsaW5pa2tlbiBww6UgZ3J1bmQgYWYgbMOmbmRlc21lcnRlciBlZnRlciBsw7hmdCBmb3IgMyBkYWdlIHNpZGVuLiBJbmdlbiB1ZHN0csOlbGluZyB0aWwgYmVuZW5lLjwveDpwPg0KPHg6cD48eDpiPjx4OmVtPkFrdHVlbHQ8L3g6ZW0+PC94OmI+PHg6YnIvPg0KICAgIFNtZXJ0ZXJuZSBlciB2w6Zyc3QgdmVkIGZvcm92ZXJiw7hqbmluZywgbWVuIHBhdGllbnRlbiBrYW4gZm9ydHNhdCBnw6Ugb21rcmluZy4gPHg6aT5JbmdlbiBmw7hsZWZvcnN0eXJyZWxzZXIuPC94Omk+DQo8L3g6cD4NCjx4OnA+PHg6Yj48eDplbT5WdXJkZXJpbmc8L3g6ZW0+PC94OmI+PHg6YnIvPg0KICAgIEZvcmVuZWxpZ3QgbWVkIG1la2FuaXNrZSBsw6ZuZGVyeWdzbWVydGVyIHVkZW4gcsO4ZGUgZmxhZy4NCjwveDpwPg0KPHg6cD48eDpiPjx4OmVtPlBsYW48L3g6ZW0+PC94OmI+PHg6YnIvPg0KICAgIEluZm9ybWF0aW9uIG9tIGxldCBha3Rpdml0ZXQgb2cgc21lcnRlc3RpbGxlbmRlIHZlZCBiZWhvdi4gS29udGFrdCB2ZWQgPHg6Yj48eDppPmZvcnbDpnJyaW5nIGVsbGVyIG55ZSBuZXVyb2xvZ2lza2Ugc3ltcHRvbWVyLjwveDppPjwveDpiPg0KPC94OnA+"
+* extension[valueAttachment].valueAttachment.data = "PHA+UGF0aWVudGVuIGtvbnRha3RlciBrbGluaWtrZW4gcMOlIGdydW5kIGFmIGzDpm5kZXNtZXJ0ZXIgZWZ0ZXIgbMO4ZnQgZm9yIDMgZGFnZSBzaWRlbi4gSW5nZW4gdWRzdHLDpWxpbmcgdGlsIGJlbmVuZS48L3A+DQo8cD48Yj48ZW0+QWt0dWVsdDwvZW0+PC9iPjxici8+DQogICAgU21lcnRlcm5lIGVyIHbDpnJzdCB2ZWQgZm9yb3ZlcmLDuGpuaW5nLCBtZW4gcGF0aWVudGVuIGthbiBmb3J0c2F0IGfDpSBvbWtyaW5nLiA8aT5JbmdlbiBmw7hsZWZvcnN0eXJyZWxzZXIuPC9pPg0KPC9wPg0KPHA+PGI+PGVtPlZ1cmRlcmluZzwvZW0+PC9iPjxici8+DQogICAgRm9yZW5lbGlndCBtZWQgbWVrYW5pc2tlIGzDpm5kZXJ5Z3NtZXJ0ZXIgdWRlbiByw7hkZSBmbGFnLg0KPC9wPg0KPHA+PGI+PGVtPlBsYW48L2VtPjwvYj48YnIvPg0KICAgIEluZm9ybWF0aW9uIG9tIGxldCBha3Rpdml0ZXQgb2cgc21lcnRlc3RpbGxlbmRlIHZlZCBiZWhvdi4gS29udGFrdCB2ZWQgPGI+PGk+Zm9ydsOmcnJpbmcgZWxsZXIgbnllIG5ldXJvbG9naXNrZSBzeW1wdG9tZXIuPC9pPjwvYj4NCjwvcD4="
 
 /*Notat: 
-<x:p>Patienten kontakter klinikken på grund af lændesmerter efter løft for 3 dage siden. Ingen udstråling til benene.</x:p>
-<x:p><x:b><x:em>Aktuelt</x:em></x:b><x:br/>
-    Smerterne er værst ved foroverbøjning, men patienten kan fortsat gå omkring. <x:i>Ingen føleforstyrrelser.</x:i>
-</x:p>
-<x:p><x:b><x:em>Vurdering</x:em></x:b><x:br/>
+<p>Patienten kontakter klinikken på grund af lændesmerter efter løft for 3 dage siden. Ingen udstråling til benene.</p>
+<p><b><em>Aktuelt</em></b><br/>
+    Smerterne er værst ved foroverbøjning, men patienten kan fortsat gå omkring. <i>Ingen føleforstyrrelser.</i>
+</p>
+<p><b><em>Vurdering</em></b><br/>
     Foreneligt med mekaniske lænderygsmerter uden røde flag.
-</x:p>
-<x:p><x:b><x:em>Plan</x:em></x:b><x:br/>
-    Information om let aktivitet og smertestillende ved behov. Kontakt ved <x:b><x:i>forværring eller nye neurologiske symptomer.</x:i></x:b>
-</x:p>
+</p>
+<p><b><em>Plan</em></b><br/>
+    Information om let aktivitet og smertestillende ved behov. Kontakt ved <b><i>forværring eller nye neurologiske symptomer.</i></b>
+</p>
 */

@@ -112,14 +112,14 @@ Usage: #example
 * performer[practitionerRole] = Reference(b3e0bd18-8a71-4fe2-8098-5427d307c175)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #text/html
-* extension[valueAttachment].valueAttachment.data = "PHg6cD5QYXRpZW50ZW4gbcO4ZGVyIHRpbCBrb25zdWx0YXRpb24gcMOlIGdydW5kIGFmIHN2aWUgdmVkIHZhbmRsYWRuaW5nIGdlbm5lbSAyIGRhZ2UuIE9wbHlzZXIgaHlwcGlnZSB2YW5kbGFkbmluZ2VyLCBtZW4gaW5nZW4gZmViZXIgZWxsZXIgZmxhbmtlc21lcnRlci48L3g6cD4NCjx4OnA+PHg6Yj48eDplbT5Ba3R1ZWx0PC94OmVtPjwveDpiPjx4OmJyLz4NCiAgICBTeW1wdG9tZXJuZSBlciBzdGFydGV0IGZvciAyIGRhZ2Ugc2lkZW4gb2cgZXIgZ3JhZHZpc3QgdGlsdGFnZXQuIFBhdGllbnRlbiBmw7hsZXIgc2lnIGVsbGVycyB2ZWx0aWxwYXMuIDx4Omk+SW5nZW4ga3ZhbG1lIGVsbGVyIG9wa2FzdG5pbmcuPC94Omk+DQo8L3g6cD4NCjx4OnA+PHg6Yj48eDplbT5PYmpla3RpdnQ8L3g6ZW0+PC94OmI+PHg6YnIvPg0KICAgIFVww6V2aXJrZXQgYWxtZW50aWxzdGFuZC4gQWJkb21lbiBibMO4ZHQgb2cgdcO4bXQuIDx4OmI+SW5nZW4gZHVua8O4bWhlZCBvdmVyIG55cmVyLjwveDpiPg0KPC94OnA+"
+* extension[valueAttachment].valueAttachment.data = "PHA+UGF0aWVudGVuIG3DuGRlciB0aWwga29uc3VsdGF0aW9uIHDDpSBncnVuZCBhZiBzdmllIHZlZCB2YW5kbGFkbmluZyBnZW5uZW0gMiBkYWdlLiBPcGx5c2VyIGh5cHBpZ2UgdmFuZGxhZG5pbmdlciwgbWVuIGluZ2VuIGZlYmVyIGVsbGVyIGZsYW5rZXNtZXJ0ZXIuPC9wPg0KPHA+PGI+PGVtPkFrdHVlbHQ8L2VtPjwvYj48YnIvPg0KICAgIFN5bXB0b21lcm5lIGVyIHN0YXJ0ZXQgZm9yIDIgZGFnZSBzaWRlbiBvZyBlciBncmFkdmlzdCB0aWx0YWdldC4gUGF0aWVudGVuIGbDuGxlciBzaWcgZWxsZXJzIHZlbHRpbHBhcy4gPGk+SW5nZW4ga3ZhbG1lIGVsbGVyIG9wa2FzdG5pbmcuPC9pPg0KPC9wPg0KPHA+PGI+PGVtPk9iamVrdGl2dDwvZW0+PC9iPjxici8+DQogICAgVXDDpXZpcmtldCBhbG1lbnRpbHN0YW5kLiBBYmRvbWVuIGJsw7hkdCBvZyB1w7htdC4gPGI+SW5nZW4gZHVua8O4bWhlZCBvdmVyIG55cmVyLjwvYj4NCjwvcD4="
 
 /*Notat: 
-<x:p>Patienten møder til konsultation på grund af svie ved vandladning gennem 2 dage. Oplyser hyppige vandladninger, men ingen feber eller flankesmerter.</x:p>
-<x:p><x:b><x:em>Aktuelt</x:em></x:b><x:br/>
-    Symptomerne er startet for 2 dage siden og er gradvist tiltaget. Patienten føler sig ellers veltilpas. <x:i>Ingen kvalme eller opkastning.</x:i>
-</x:p>
-<x:p><x:b><x:em>Objektivt</x:em></x:b><x:br/>
-    Upåvirket almentilstand. Abdomen blødt og uømt. <x:b>Ingen dunkømhed over nyrer.</x:b>
-</x:p>
+<p>Patienten møder til konsultation på grund af svie ved vandladning gennem 2 dage. Oplyser hyppige vandladninger, men ingen feber eller flankesmerter.</p>
+<p><b><em>Aktuelt</em></b><br/>
+    Symptomerne er startet for 2 dage siden og er gradvist tiltaget. Patienten føler sig ellers veltilpas. <i>Ingen kvalme eller opkastning.</i>
+</p>
+<p><b><em>Objektivt</em></b><br/>
+    Upåvirket almentilstand. Abdomen blødt og uømt. <b>Ingen dunkømhed over nyrer.</b>
+</p>
 */

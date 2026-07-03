@@ -112,20 +112,20 @@ Usage: #example
 * performer[practitionerRole] = Reference(4303e94d-c212-4de0-9856-c829059e64a5)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #text/html
-* extension[valueAttachment].valueAttachment.data = "PHg6cD5QYXRpZW50ZW4gbcO4ZGVyIHRpbCBrb25zdWx0YXRpb24gcMOlIGdydW5kIGFmIHN2aWUgdmVkIHZhbmRsYWRuaW5nIGdlbm5lbSAyIGRhZ2UuIE9wbHlzZXIgaHlwcGlnZSB2YW5kbGFkbmluZ2VyLCBtZW4gaW5nZW4gZmViZXIgZWxsZXIgZmxhbmtlc21lcnRlci48L3g6cD4NCjx4OnA+PHg6Yj48eDplbT5Ba3R1ZWx0PC94OmVtPjwveDpiPjx4OmJyLz4NCiAgICBTeW1wdG9tZXJuZSBlciBzdGFydGV0IGZvciAyIGRhZ2Ugc2lkZW4gb2cgZXIgZ3JhZHZpc3QgdGlsdGFnZXQuIFBhdGllbnRlbiBmw7hsZXIgc2lnIGVsbGVycyB2ZWx0aWxwYXMuIDx4Omk+SW5nZW4ga3ZhbG1lIGVsbGVyIG9wa2FzdG5pbmcuPC94Omk+DQo8L3g6cD4NCjx4OnA+PHg6Yj48eDplbT5PYmpla3RpdnQ8L3g6ZW0+PC94OmI+PHg6YnIvPg0KICAgIFVww6V2aXJrZXQgYWxtZW50aWxzdGFuZC4gQWJkb21lbiBibMO4ZHQgb2cgdcO4bXQuIDx4OmI+SW5nZW4gZHVua8O4bWhlZCBvdmVyIG55cmVyLjwveDpiPg0KPC94OnA+DQo8eDpwPjx4OmI+PHg6ZW0+VnVyZGVyaW5nPC94OmVtPjwveDpiPjx4OmJyLz4NCiAgICBLbGluaXNrIGJpbGxlZGUgZm9yZW5lbGlndCBtZWQgbmVkcmUgdXJpbnZlanNpbmZla3Rpb24gdWRlbiB0ZWduIHRpbCDDuHZyZSBVVkkuDQo8L3g6cD4NCjx4OnA+PHg6Yj48eDplbT5QbGFuPC94OmVtPjwveDpiPjx4OmJyLz4NCiAgICBVcmluIHNlbmRlcyB0aWwgdW5kZXJzw7hnZWxzZSwgb2cgcGF0aWVudGVuIGluZm9ybWVyZXMgb20gYXQga29udGFrdGUga2xpbmlra2VuIHZlZCA8eDpiPjx4Omk+ZmViZXIsIGZsYW5rZXNtZXJ0ZXIgZWxsZXIgZm9ydsOmcnJpbmcuPC94Omk+PC94OmI+DQo8L3g6cD4="
+* extension[valueAttachment].valueAttachment.data = "PHA+UGF0aWVudGVuIG3DuGRlciB0aWwga29uc3VsdGF0aW9uIHDDpSBncnVuZCBhZiBzdmllIHZlZCB2YW5kbGFkbmluZyBnZW5uZW0gMiBkYWdlLiBPcGx5c2VyIGh5cHBpZ2UgdmFuZGxhZG5pbmdlciwgbWVuIGluZ2VuIGZlYmVyIGVsbGVyIGZsYW5rZXNtZXJ0ZXIuPC9wPg0KPHA+PGI+PGVtPkFrdHVlbHQ8L2VtPjwvYj48YnIvPg0KICAgIFN5bXB0b21lcm5lIGVyIHN0YXJ0ZXQgZm9yIDIgZGFnZSBzaWRlbiBvZyBlciBncmFkdmlzdCB0aWx0YWdldC4gUGF0aWVudGVuIGbDuGxlciBzaWcgZWxsZXJzIHZlbHRpbHBhcy4gPGk+SW5nZW4ga3ZhbG1lIGVsbGVyIG9wa2FzdG5pbmcuPC9pPg0KPC9wPg0KPHA+PGI+PGVtPk9iamVrdGl2dDwvZW0+PC9iPjxici8+DQogICAgVXDDpXZpcmtldCBhbG1lbnRpbHN0YW5kLiBBYmRvbWVuIGJsw7hkdCBvZyB1w7htdC4gPGI+SW5nZW4gZHVua8O4bWhlZCBvdmVyIG55cmVyLjwvYj4NCjwvcD4NCjxwPjxiPjxlbT5WdXJkZXJpbmc8L2VtPjwvYj48YnIvPg0KICAgIEtsaW5pc2sgYmlsbGVkZSBmb3JlbmVsaWd0IG1lZCBuZWRyZSB1cmludmVqc2luZmVrdGlvbiB1ZGVuIHRlZ24gdGlsIMO4dnJlIFVWSS4NCjwvcD4NCjxwPjxiPjxlbT5QbGFuPC9lbT48L2I+PGJyLz4NCiAgICBVcmluIHNlbmRlcyB0aWwgdW5kZXJzw7hnZWxzZSwgb2cgcGF0aWVudGVuIGluZm9ybWVyZXMgb20gYXQga29udGFrdGUga2xpbmlra2VuIHZlZCA8Yj48aT5mZWJlciwgZmxhbmtlc21lcnRlciBlbGxlciBmb3J2w6ZycmluZy48L2k+PC9iPg0KPC9wPg=="
 
 /*Notat: 
-<x:p>Patienten møder til konsultation på grund af svie ved vandladning gennem 2 dage. Oplyser hyppige vandladninger, men ingen feber eller flankesmerter.</x:p>
-<x:p><x:b><x:em>Aktuelt</x:em></x:b><x:br/>
-    Symptomerne er startet for 2 dage siden og er gradvist tiltaget. Patienten føler sig ellers veltilpas. <x:i>Ingen kvalme eller opkastning.</x:i>
-</x:p>
-<x:p><x:b><x:em>Objektivt</x:em></x:b><x:br/>
-    Upåvirket almentilstand. Abdomen blødt og uømt. <x:b>Ingen dunkømhed over nyrer.</x:b>
-</x:p>
-<x:p><x:b><x:em>Vurdering</x:em></x:b><x:br/>
+<p>Patienten møder til konsultation på grund af svie ved vandladning gennem 2 dage. Oplyser hyppige vandladninger, men ingen feber eller flankesmerter.</p>
+<p><b><em>Aktuelt</em></b><br/>
+    Symptomerne er startet for 2 dage siden og er gradvist tiltaget. Patienten føler sig ellers veltilpas. <i>Ingen kvalme eller opkastning.</i>
+</p>
+<p><b><em>Objektivt</em></b><br/>
+    Upåvirket almentilstand. Abdomen blødt og uømt. <b>Ingen dunkømhed over nyrer.</b>
+</p>
+<p><b><em>Vurdering</em></b><br/>
     Klinisk billede foreneligt med nedre urinvejsinfektion uden tegn til øvre UVI.
-</x:p>
-<x:p><x:b><x:em>Plan</x:em></x:b><x:br/>
-    Urin sendes til undersøgelse, og patienten informeres om at kontakte klinikken ved <x:b><x:i>feber, flankesmerter eller forværring.</x:i></x:b>
-</x:p>
+</p>
+<p><b><em>Plan</em></b><br/>
+    Urin sendes til undersøgelse, og patienten informeres om at kontakte klinikken ved <b><i>feber, flankesmerter eller forværring.</i></b>
+</p>
 */
